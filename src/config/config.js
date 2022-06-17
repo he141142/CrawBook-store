@@ -22,13 +22,15 @@ const configs = {
     // Security
     token_secret: process.env.TOKEN_SECRET || "TEST-DEV-SECRET",
     //paging
-    pageLimit : 5,
-    defautltSort: process.env.DEFAULT_SORT|| "DESC",
+    pageLimit: 5,
+    defautltSort: process.env.DEFAULT_SORT || "DESC",
     //crawler
     CRAW_HOST: process.env.CRAW_HOST,
     CRAW_PORT: process.env.CRAW_PORT,
-    CRAW_PROTOCOL : process.env.CRAW_PROTOCOL
-
+    CRAW_PROTOCOL: process.env.CRAW_PROTOCOL,
+    DEFAULT_NAVIGATION_TIMEOUT: process.env.DEFAULT_NAVIGATION_TIMEOUT,
+    HTTP_HEADER_REFERRER: process.env.HTTP_HEADER_REFERRER,
+    EXECUTABLE_PART:process.env.EXECUTABLE_PART
   },
 };
 
