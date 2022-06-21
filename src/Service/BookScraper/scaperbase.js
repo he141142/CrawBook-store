@@ -45,18 +45,16 @@ module.exports = class BaseScraper extends BaseService {
     console.log("Lauching playwright: " + {...this.browserCfg})
     const page = await browser.newPage();
     const navigationPromise = page.waitForNavigation();
-
     await page.setExtraHTTPHeaders({referrer: config.HTTP_HEADER_REFERRER});
     // await page.setDefaultNavigationTimeout(config.DEFAULT_NAVIGATION_TIMEOUT);
     await page.goto(url, {
       waitUntil: 'load',
       timeout: 0
-
     });
     await page.goto(url);
-    if(this.waitForNavigation) await navigationPromise;
+  await navigationPromise;
     const html = await page.content();
-    await browser.close();
+    // await browser.close();
     return html;
   };
 
@@ -88,11 +86,13 @@ module.exports = class BaseScraper extends BaseService {
 
   loadHtmlCheerio = async () => {
     const html = await this.getHtml(this.url);
+
     return cheerio.load(html);
   }
 
   loadHtmlCheerio = async (url) => {
     const html = await this.getHtml(url);
+
     return cheerio.load(html);
   }
 

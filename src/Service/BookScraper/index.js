@@ -7,13 +7,13 @@ const BookShopScrape = require("./bookShopOrg");
 module.exports = class BookScraperRouter extends BaseRouter {
   bookScraperService = null;
   bookShopScrape = new BookShopScrape();
-
   constructor() {
     const bookScraperService = new BookScraperService();
     super(bookScraperService);
     this.get("/books-scraper", this.crawUrl);
     this.get("/bookShopScrape",this.crawbookShopScrape);
     this.get("/crawFictionInSpecificLink",this.crawFictionInSpecificLink);
+    this.get("/extractBookInViewMore",this.extractBookInViewMore)
   }
 
   crawUrl = async (req, res, next) => {
@@ -38,6 +38,17 @@ module.exports = class BookScraperRouter extends BaseRouter {
       return nextErr(new ErrorHandler(400, data.message), req, res, next);
     }
     CustomResponse.sendObject(res, 200, data);
+  }
+
+  extractBookInViewMore = async (req, res, next)=>{
+    const data = await Promise.all(await this.bookShopScrape.extractBookInViewMore(
+        req.query.link)) ;
+    if (data instanceof Error) {
+      return nextErr(new ErrorHandler(400, data.message), req, res, next);
+    }
+    CustomResponse.sendObject(res, 200,{
+      dataArr:data
+    });
   }
 
 }

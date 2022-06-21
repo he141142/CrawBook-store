@@ -20,6 +20,8 @@
     "express-response-formatter": "^2.0.2",
     "playwright": "^1.22.2",
     "puppeteer": "^14.4.0",
+    "puppeteer-extra": "^3.3.0",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.0",
     "util": "^0.12.4",
     "winston": "^3.7.2"
   },

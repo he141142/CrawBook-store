@@ -30,7 +30,9 @@ const configs = {
     CRAW_PROTOCOL: process.env.CRAW_PROTOCOL,
     DEFAULT_NAVIGATION_TIMEOUT: process.env.DEFAULT_NAVIGATION_TIMEOUT,
     HTTP_HEADER_REFERRER: process.env.HTTP_HEADER_REFERRER,
-    EXECUTABLE_PART:process.env.EXECUTABLE_PART
+    EXECUTABLE_PART:process.env.EXECUTABLE_PART,
+    BASE_PATH:  path.resolve(__dirname,"../"),
+    CRAW_URL: process.env.CRAW_URL
   },
 };
 

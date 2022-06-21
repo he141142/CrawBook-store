@@ -2,11 +2,21 @@ const BaseScraper = require("./scaperbase")
 const cheerio = require("cheerio");
 const logger = require("../../utils/logger");
 const fs = require('fs');
+const {mkdirSync, writeToFile, getAbsoulutePathJSONStorage} = require(
+    "../../utils/fileUtils")
+const config = require("../../config/config")
+const DataUtils = require("../../utils/index")
 
 module.exports = class BookShopScrape extends BaseScraper {
 
   constructor() {
     super();
+    try {
+      mkdirSync(config.BASE_PATH + "/jsonStorage");
+      console.log("base path: " + config.BASE_PATH)
+    } catch (e) {
+      logger.error("jsonStorage May be not initialized!");
+    }
     this.setUrl("https://bookshop.org/");
   }
 
@@ -86,7 +96,7 @@ module.exports = class BookShopScrape extends BaseScraper {
       const $ = await this.loadHtmlCheerio(link)
       const allFictionTitle =  this.getAllFictionTitle($);
       const data = JSON.stringify(allFictionTitle);
-
+      writeToFile(getAbsoulutePathJSONStorage() + "/test.json", data)
       return allFictionTitle;
     } catch (e) {
       console.log(e);
@@ -141,6 +151,67 @@ module.exports = class BookShopScrape extends BaseScraper {
           publisherLink: aTagElement.attr("href"),
           publisherImg: aTagElement.find('img.avatar-light').attr('src')
         }
+    }
+
+  }
+
+  extractBookInViewMore = async (linkToVisit) => {
+    try{
+      const $ = await this.loadHtmlCheerio(linkToVisit);
+      let linkSiteObject = this.getLinkSites($);
+      console.log(linkSiteObject)
+      let linkPages = linkSiteObject.linkPage;
+      console.log("linkPages length: " + linkPages.length)
+      console.log(linkPages)
+      let BooksOver = linkPages.length === 0 ?  this.exTractBookInSubTypePerPage($)
+          :
+          await Promise.all(linkPages.map(async link => {
+            const q = await this.loadHtmlCheerio(link);
+            return this.exTractBookInSubTypePerPage(q);
+          }));
+
+      return BooksOver;
+    }
+    catch (e) {
+      console.log(e);
+      return new Error("Internal server")
+    }
+
+  }
+
+  exTractBookInSubTypePerPage = ($) => {
+    return $("div.booklist").find("div.booklist-book").map(
+        (_, book) => {
+          const bookInstance = {
+            bookName: DataUtils.replaceWhiteSpaceAndn(
+                $(book).find("h2.leading-tight").find("a").text()),
+            bookAuthor: DataUtils.replaceWhiteSpaceAndn(
+                $(book).find("h3.text-s").text()),
+            bookPrice: DataUtils.replaceWhiteSpaceAndn(
+                $(book).find("div.pb-4").find("div").text()),
+            linkDetail:this.url.substring(0,this.url.length-1)+ DataUtils.replaceWhiteSpaceAndn(
+                $(book).find("h2.leading-tight").find("a").attr("href"))
+          }
+          console.log(bookInstance)
+          return {
+            ...bookInstance
+          }
+        }
+    )
+  }
+
+  extractBookDetails = async ($,bookOvers) => {
+
+  }
+
+  getLinkSites = ($) => {
+    const getSpanTagContainATag = $('nav.pagination').find('span.page');
+    let prefix = config.CRAW_URL;
+    return {
+      totalPage: getSpanTagContainATag.length,
+      linkPage:  getSpanTagContainATag.find("a").map(
+          (_, a) => prefix.substring(0,this.url.length-1)+$(a).attr("href")
+      ).toArray()
     }
   }
 
