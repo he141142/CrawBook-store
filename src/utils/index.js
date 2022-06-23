@@ -1,5 +1,6 @@
 const logger = require("./logger");
 const path = require("path");
+const util = require('util')
 class DataUtils {
   isNumber(string) {
     return (
@@ -59,14 +60,33 @@ class DataUtils {
     }
     return false;
   }
-  isValidDAte(date){
+
+  isValidDAte(date) {
     const reg = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/;
     return reg.test(date)
   }
 
-  replaceWhiteSpaceAndn=(str)=>{
-    return str.replace("\n", "").trim()
+  replaceWhiteSpaceAndn = (str) => {
+    return str.replace(/\n/g, "").replace(/^\s+|\s+$|\s+(?=\s)/g, "");
   }
+
+  consoleLogWithColor = (obj) => {
+
+    console.log(
+        util.inspect(obj, {showHidden: false, depth: null, colors: true}))
+
+  }
+
+  extractFileName = (link) =>{
+    const arrUrlSplit = link.split("https://bookshop.org/");
+    const getEnd = arrUrlSplit[1].split("/");
+    return getEnd[getEnd.length-1]+".json";
+  }
+
+
+
+
+
 }
 
 module.exports = new DataUtils();

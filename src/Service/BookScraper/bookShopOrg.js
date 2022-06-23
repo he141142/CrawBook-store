@@ -1,14 +1,21 @@
 const BaseScraper = require("./scaperbase")
 const cheerio = require("cheerio");
 const logger = require("../../utils/logger");
-const fs = require('fs');
-const {mkdirSync, writeToFile, getAbsoulutePathJSONStorage} = require(
+const {
+  mkdirSync,
+  writeToFile,
+  getAbsoulutePathJSONStorage,
+  writeJSONFile,
+  getJsonFile
+} = require(
     "../../utils/fileUtils")
 const config = require("../../config/config")
 const DataUtils = require("../../utils/index")
-
+const crawBookConstants = require("./constatnts");
+const queue = require("./queue")
 module.exports = class BookShopScrape extends BaseScraper {
-
+  books = [];
+  queue = new queue();
   constructor() {
     super();
     try {
@@ -94,7 +101,11 @@ module.exports = class BookShopScrape extends BaseScraper {
   CrawByFictionInSpecificLink = async (link) => {
     try {
       const $ = await this.loadHtmlCheerio(link)
-      const allFictionTitle =  this.getAllFictionTitle($);
+      const allFictionTitle = this.getAllFictionTitle($);
+      /**
+       * WRITE JSON FILE
+       * @type {string}
+       */
       const data = JSON.stringify(allFictionTitle);
       writeToFile(getAbsoulutePathJSONStorage() + "/test.json", data)
       return allFictionTitle;
@@ -156,32 +167,35 @@ module.exports = class BookShopScrape extends BaseScraper {
   }
 
   extractBookInViewMore = async (linkToVisit) => {
-    try{
+    try {
       const $ = await this.loadHtmlCheerio(linkToVisit);
       let linkSiteObject = this.getLinkSites($);
-      console.log(linkSiteObject)
       let linkPages = linkSiteObject.linkPage;
-      console.log("linkPages length: " + linkPages.length)
-      console.log(linkPages)
-      let BooksOver = linkPages.length === 0 ?  this.exTractBookInSubTypePerPage($)
+      let BooksOver = linkPages.length === 0
+          ? await this.exTractBookInSubTypePerPage(
+              $)
           :
-          await Promise.all(linkPages.map(async link => {
-            const q = await this.loadHtmlCheerio(link);
-            return this.exTractBookInSubTypePerPage(q);
-          }));
-
+          [].concat(await this.exTractBookInSubTypePerPage($)).concat(
+              ...await Promise.all(linkPages.map(async link => {
+                const q = await this.loadHtmlCheerio(link);
+                return await this.exTractBookInSubTypePerPage(q);
+              })))
+      await BooksOver;
+      console.log("BooksOver: " + BooksOver)
       return BooksOver;
     }
     catch (e) {
       console.log(e);
       return new Error("Internal server")
     }
-
   }
 
-  exTractBookInSubTypePerPage = ($) => {
+  exTractBookInSubTypePerPage = async ($) => {
     return $("div.booklist").find("div.booklist-book").map(
-        (_, book) => {
+        async (_, book) => {
+          const linkDetail = this.url.substring(0, this.url.length - 1)
+              + DataUtils.replaceWhiteSpaceAndn(
+                  $(book).find("h2.leading-tight").find("a").attr("href"));
           const bookInstance = {
             bookName: DataUtils.replaceWhiteSpaceAndn(
                 $(book).find("h2.leading-tight").find("a").text()),
@@ -189,15 +203,14 @@ module.exports = class BookShopScrape extends BaseScraper {
                 $(book).find("h3.text-s").text()),
             bookPrice: DataUtils.replaceWhiteSpaceAndn(
                 $(book).find("div.pb-4").find("div").text()),
-            linkDetail:this.url.substring(0,this.url.length-1)+ DataUtils.replaceWhiteSpaceAndn(
-                $(book).find("h2.leading-tight").find("a").attr("href"))
+            linkDetail,
           }
-          console.log(bookInstance)
+          console.log("bookInstance: " + bookInstance)
           return {
             ...bookInstance
           }
         }
-    )
+    ).toArray()
   }
 
   extractBookDetails = async ($,bookOvers) => {
@@ -209,10 +222,147 @@ module.exports = class BookShopScrape extends BaseScraper {
     let prefix = config.CRAW_URL;
     return {
       totalPage: getSpanTagContainATag.length,
-      linkPage:  getSpanTagContainATag.find("a").map(
-          (_, a) => prefix.substring(0,this.url.length-1)+$(a).attr("href")
+      linkPage: getSpanTagContainATag.find("a").map(
+          (_, a) => prefix.substring(0, this.url.length - 1) + $(a).attr("href")
       ).toArray()
     }
   }
 
+  goToBookDetail = async (linkDetail,q=null) => {
+    try {
+      if(q){
+        q.visited.add(linkDetail);
+        console.log("q running: "+q.running);
+      }
+      const $ = await this.loadHtmlCheerio(linkDetail);
+      const bookDetail = this.extractBookDetail($);
+      this.dataUtilInstance.consoleLogWithColor("bookDetail Crawl: ");
+      this.dataUtilInstance.consoleLogWithColor(bookDetail)
+      this.books.push(bookDetail);
+      return bookDetail;
+    } catch (e) {
+      console.log(e);
+      return e;
+    }
+
+  }
+
+  extractBookDetail = ($) => {
+    const mb8List = $(".grid.grid-cols-auto-1.col-gap-2");
+    return {
+      bookDetail: {
+        ...this.getBookDetailElm(mb8List, $)
+      },
+      Author: {
+        name: this.dataUtilInstance.replaceWhiteSpaceAndn(
+            $(`span[itemprop="${crawBookConstants.itemprop.AUTHOR}"]`).find(
+                "span").text()),
+        about:
+            this.dataUtilInstance.replaceWhiteSpaceAndn(
+                $(".space-y-4.show-lists").children("div").text())
+      },
+      bookImage: $(`img[itemprop="${crawBookConstants.itemprop.IMAGE}"]`).attr(
+          "src")
+    }
+  }
+
+  getOffers = ($) => {
+    return $(`div[itemprop="${crawBookConstants.itemprop.OFFER}"]`)
+  }
+
+  getBookDetailElm = (mb8List, $) => {
+    this.dataUtilInstance.consoleLogWithColor(this.getDescription($));
+
+    return {
+      price: this.getOffers($).find(
+          "b").text(),
+      sale: this.getOffers($).find(
+          ".line-through").text(),
+      PublishDate: this.getTextOfElm(
+          $(`div[itemprop="${crawBookConstants.itemprop.PUBLISH_DATE}"]`)),
+      Publisher: this.getTextOfElm(
+          $(`div[itemprop="${crawBookConstants.itemprop.PUBLISHER}"]`)),
+      Pages: this.getTextOfElm(
+          $(`div[itemprop="${crawBookConstants.itemprop.NUMBER_OF_PAGES}"]`)),
+      Dimensions: this.getTextOfElm(
+          $(`div[itemprop="${crawBookConstants.itemprop.DIMENSION}"]`)),
+      Languages: this.getTextOfElm(
+          $(`div[itemprop="${crawBookConstants.itemprop.LANGUAGE}"]`)),
+      Type:
+          this.getTextOfElm(
+              $(`div[itemprop="${crawBookConstants.itemprop.TYPE}"]`)),
+      description: this.getDescription($)
+    }
+  }
+
+  getDescription = ($) => {
+    const description = $(`div[itemprop="${crawBookConstants.itemprop.DESCRIPTION}"]`);
+    const brList = description.find("br");
+    let arr = [];
+    for (const elm of brList) {
+      let paragraph =
+          elm.nextSibling.nodeValue;
+      if (paragraph) {
+        arr.push(paragraph);
+      }
+    }
+    return arr;
+  }
+
+  readBookFromDatabase = async () => {
+    try {
+      return await getJsonFile(this.BOOK_DATA_PATH);
+    } catch (e) {
+      return new Error(e.message);
+    }
+  }
+
+  readBookFromDatabase = async (path) => {
+    try {
+      return await getJsonFile(path);
+    } catch (e) {
+      return new Error(e.message);
+    }
+  }
+
+  extractBooksFromStorage = async (linkAccordingFile) => {
+    try {
+      const fileName = DataUtils.extractFileName(linkAccordingFile);
+      return await getJsonFile(fileName);
+    } catch (e) {
+      return e;
+    }
+  }
+
+  extractBooksDetailFromLocal = async (linkAccordingFile) => {
+    try {
+      const books = await this.extractBooksFromStorage(linkAccordingFile);
+      const links = books.map(book => {
+        return book.linkDetail;
+      });
+      this.dataUtilInstance.consoleLogWithColor("link extract from database: ");
+      this.dataUtilInstance.consoleLogWithColor(links);
+
+      await links
+      .filter(link => !this.queue.visited.has(link))
+      .forEach(link => {
+        this.queue.enqueue(this.queue.crawlTask, link,this.goToBookDetail,link,this.queue);
+      });
+      return this.books;
+    } catch (e) {
+      return e
+    }
+  }
+
+  runCrawBookDetailFromLocal = async (linkAccordingFile)=>{
+      await this.queue.enqueue(this.extractBooksDetailFromLocal,linkAccordingFile);
+      return this.books;
+  }
+
+
+
+  getTitle = ($) => {
+    return $(".caption").find("h1.leading-tight").text();
+  }
 }
+

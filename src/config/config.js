@@ -32,7 +32,8 @@ const configs = {
     HTTP_HEADER_REFERRER: process.env.HTTP_HEADER_REFERRER,
     EXECUTABLE_PART:process.env.EXECUTABLE_PART,
     BASE_PATH:  path.resolve(__dirname,"../"),
-    CRAW_URL: process.env.CRAW_URL
+    CRAW_URL: process.env.CRAW_URL,
+    PROXY_SERVER: process.env.PROXY_SERVER
   },
 };
 

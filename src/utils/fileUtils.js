@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const logger = require("../utils/logger");
 const config = require("../config/config")
+
 //create folder if not exist
 const mkdirSync = function (path) {
   try {
@@ -38,13 +39,32 @@ const writeToFile = (fileName, data) => {
   });
 }
 
-const getAbsoulutePathJSONStorage = () => {
-  return config.BASE_PATH + "/jsonStorage"
+const writeJSONFile = (pathName, obj) => {
+  const data = JSON.stringify(obj);
+  writeToFile(getAbsoulutePathJSONStorage() + pathName, data)
 }
+
+const getAbsoulutePathJSONStorage = () => {
+  return config.BASE_PATH + "/jsonStorage/"
+}
+
+const getJsonFile = function getJsonFile(filePath, encoding = 'utf8') {
+  return new Promise(function getJsonFileImpl(resolve, reject) {
+    fs.readFile(getAbsoulutePathJSONStorage()+filePath, encoding, function readFileCallback(err, contents) {
+      if(err) {
+        return reject(err);
+      }
+      resolve(contents);
+    });
+  })
+  .then(JSON.parse);
+};
 
 module.exports = {
   mkdirSync,
   deleImageFIle,
   writeToFile,
-  getAbsoulutePathJSONStorage
+  getAbsoulutePathJSONStorage,
+  writeJSONFile,
+  getJsonFile
 };
