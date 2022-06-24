@@ -1,0 +1,584 @@
+[
+  {
+    "bookName": "Royal Holiday",
+    "bookAuthor": "Jasmine Guillory",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/royal-holiday-9781984802217/9780593099049",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.88",
+        "sale": "$16.00",
+        "PublishDate": "October 13, 2020",
+        "Publisher": "Berkley Books",
+        "Pages": "320",
+        "Dimensions": "5.4 X 8.2 X 0.9 inches | 0.6 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Jasmine Guillory",
+        "about": "Jasmine Guillory is the New York Times bestselling author of seven romance novels, including The Wedding Date and the Reese Witherspoon x Hello Sunshine Book Club Pick The Proposal. Her work has appeared in O, The Oprah Magazine, Cosmopolitan, Bon Appetit, and Time. She lives in Oakland, California."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593099049.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Queer Werewolves Destroy Capitalism: Smutty Stories",
+    "bookAuthor": "Mj Lyons",
+    "bookPrice": "$9.95 $9.25",
+    "linkDetail": "https://bookshop.org/books/queer-werewolves-destroy-capitalism-smutty-stories/9781621067436",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.25",
+        "sale": "$9.95",
+        "PublishDate": "May 11, 2021",
+        "Publisher": "Microcosm Publishing",
+        "Pages": "128",
+        "Dimensions": "5.0 X 6.9 X 0.6 inches | 0.25 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Mj Lyons",
+        "about": "MJ Lyons (@queer_mikey) is a writer, bookstore professional, and game maker. His debut novel, Murder at the World's Fair, was published by Renaissance Press in June 2019. He has also written for dozens of publications, including a five-year-long column with a colleague on lesser known LGBT history, History Boys. Other publishing credits include his short story, \"To kill in a god,\" in Clockwork Cairo: Steampunk Tales of Egypt, and a chapbook of speculative fiction short stories, Temple of Cats. He manages the bookstore side of Glad Day Bookshop and lives in Toronto with his goblin of a cat."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781621067436.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Nobody's Princess",
+    "bookAuthor": "Erica Ridley",
+    "bookPrice": "$8.99 $8.36",
+    "linkDetail": "https://bookshop.org/books/nobody-s-princess-9781538719589/9781538719589",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$8.36",
+        "sale": "$8.99",
+        "PublishDate": "July 26, 2022",
+        "Publisher": "Forever",
+        "Pages": "384",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Mass Market Paperbound",
+        "description": [
+          "\n      "
+        ]
+      },
+      "Author": {
+        "name": "Erica Ridley",
+        "about": "Erica Ridley is a New York Times and USA Today bestselling author of historical romance novels. When not reading or writing romances, Erica can be found riding camels in Africa, zip-lining through rain forests in Costa Rica, or getting hopelessly lost in the middle of Budapest. To find out more, visit: EricaRidley.comTwitter @EricaRidley Facebook.com/EricaRidleyInstagram @EricaRidley"
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781538719589.jpg?height=500&v=v2-e72a20a037cf46289480caa6ff2065d7"
+    }
+  },
+  {
+    "bookName": "The Mermaid of Black Conch",
+    "bookAuthor": "Monique Roffey",
+    "bookPrice": "$26.00 $24.18",
+    "linkDetail": "https://bookshop.org/books/the-mermaid-of-black-conch/9780593534205",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$24.18",
+        "sale": "$26.00",
+        "PublishDate": "July 12, 2022",
+        "Publisher": "Knopf Publishing Group",
+        "Pages": "240",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": [
+          "\n      "
+        ]
+      },
+      "Author": {
+        "name": "Monique Roffey",
+        "about": "MONIQUE ROFFEY is a senior lecturer in creative writing at the Manchester Writing School at Manchester Metropolitan University. She is the author of seven books, four of which are set in Trinidad and the Caribbean region. The Mermaid of Black Conch won the 2020 Costa Book of the Year Award and was short-listed for several other major prizes. Roffey's work has appeared in The New York Review of Books, Wasafiri, and The Independent. She was born in Port of Spain, Trinidad, and educated in the United Kingdom. Her website is moniqueroffey.com."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593534205.jpg?height=500&v=v2-be829c80a20cbef0c585029db3dc8c16"
+    }
+  },
+  {
+    "bookName": "The Star-Crossed Sisters of Tuscany",
+    "bookAuthor": "Lori Nelson Spielman",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/the-star-crossed-sisters-of-tuscany/9781984803160",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "",
+        "sale": "",
+        "PublishDate": "",
+        "Publisher": "",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "",
+        "Type": "",
+        "description": []
+      },
+      "Author": {
+        "name": "",
+        "about": ""
+      }
+    }
+  },
+  {
+    "bookName": "Jane Austen Boxed Set",
+    "bookAuthor": "Jane Austen",
+    "bookPrice": "$80.00 $74.40",
+    "linkDetail": "https://bookshop.org/books/jane-austen-boxed-set/9781645170006",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$74.40",
+        "sale": "$80.00",
+        "PublishDate": "April 07, 2020",
+        "Publisher": "Canterbury Classics",
+        "Pages": "2024",
+        "Dimensions": "6.8 X 8.1 X 5.9 inches | 6.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Jane Austen",
+        "about": "Jane Austen (1775-1817) is considered by many scholars to be the first great woman novelist. Born in Steventon, England, she later moved to Bath and began to write for her own and her family's amusement. Her novels, set in her own English countryside, depict the daily lives of provincial middle-class families with wry observation, a delicate irony, and a good-humored wit."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781645170006.jpg?height=500&v=v2-dc673fb4bb0de27111733a5395193c69"
+    }
+  },
+  {
+    "bookName": "One to Watch",
+    "bookAuthor": "Kate Stayman-London",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/one-to-watch/9780525510444",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.81",
+        "sale": "$17.00",
+        "PublishDate": "July 07, 2020",
+        "Publisher": "Dial Press",
+        "Pages": "432",
+        "Dimensions": "5.4 X 8.1 X 0.9 inches | 0.84 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Kate Stayman-London",
+        "about": "Kate Stayman-London is a novelist, screenwriter, and political strategist. She served as lead digital writer for Hillary Rodham Clinton's 2016 presidential campaign and has written for notable figures ranging from President Obama and Malala Yousafzai to Anna Wintour and Cher. When not writing or traveling, Kate can be found obsessively ranking Taylor Swift songs, laughing loudly with friends over really good bottles of wine, and of course, watching reality TV. She lives in Los Angeles."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780525510444.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Care and Feeding of Waspish Widows: Feminine Pursuits",
+    "bookAuthor": "Olivia Waite",
+    "bookPrice": "$6.99 $6.50",
+    "linkDetail": "https://bookshop.org/books/the-care-and-feeding-of-waspish-widows-feminine-pursuits/9780062931825",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$6.50",
+        "sale": "$6.99",
+        "PublishDate": "July 28, 2020",
+        "Publisher": "Avon Books",
+        "Pages": "416",
+        "Dimensions": "4.1 X 6.6 X 1.1 inches | 0.45 pounds",
+        "Languages": "English",
+        "Type": "Mass Market Paperbound",
+        "description": []
+      },
+      "Author": {
+        "name": "Olivia Waite",
+        "about": "Olivia Waite writes erotic, historical, and paranormal romance and is the author of the Feminine Pursuits series, as well as several stand-alone novels."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780062931825.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Astronaut and the Star",
+    "bookAuthor": "Jen Comfort",
+    "bookPrice": "$12.95 $12.04",
+    "linkDetail": "https://bookshop.org/books/the-astronaut-and-the-star/9781542032605",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.04",
+        "sale": "$12.95",
+        "PublishDate": "March 01, 2022",
+        "Publisher": "Montlake",
+        "Pages": "332",
+        "Dimensions": "5.43 X 8.19 X 1.1 inches | 0.75 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Jen Comfort",
+        "about": "Jen Comfort is originally from Portland, Oregon, and dabbled in astrophysics before spending a decade working in restaurants in New York City and Portland. Now she writes romantic comedies about hot nerds with very cool jobs. She spends her free time growing plants destined to die before their time, playing video games, and encouraging her cat and malamute-husky dog to become internet famous, with zero success."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781542032605.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "A Kiss at the Mistletoe Rodeo",
+    "bookAuthor": "Kathy Douglass",
+    "bookPrice": "$5.99 $5.57",
+    "linkDetail": "https://bookshop.org/books/a-kiss-at-the-mistletoe-rodeo/9781335408167",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$5.57",
+        "sale": "$5.99",
+        "PublishDate": "October 26, 2021",
+        "Publisher": "Harlequin Special Edition",
+        "Pages": "288",
+        "Dimensions": "4.09 X 6.54 X 0.87 inches | 0.3 pounds",
+        "Languages": "English",
+        "Type": "Mass Market Paperbound",
+        "description": [
+          "Book 2: ",
+          "Book 3: ",
+          "Book 4: ",
+          "Book 5: ",
+          "Book 6: "
+        ]
+      },
+      "Author": {
+        "name": "Kathy Douglass",
+        "about": "Kathy Douglass came by her love of reading naturally - both of her parents were readers. She would finish one book and pick up another. Then she attended law school and traded romances for legal opinions. After the birth of her two children, her love of reading turned into a love of writing. Kathy now spends her days writing the small town comtemporary novels she enjoys reading. Kathy loves to hear from her readers and can be found on Facebook."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781335408167.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Paladin's Hope",
+    "bookAuthor": "T. Kingfisher",
+    "bookPrice": "$40.19",
+    "linkDetail": "https://bookshop.org/books/paladin-s-hope/9781614505518",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "",
+        "sale": "",
+        "PublishDate": "",
+        "Publisher": "",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "",
+        "Type": "",
+        "description": []
+      },
+      "Author": {
+        "name": "",
+        "about": ""
+      }
+    }
+  },
+  {
+    "bookName": "No Rings Attached",
+    "bookAuthor": "Rachel Lacey",
+    "bookPrice": "$12.95 $12.04",
+    "linkDetail": "https://bookshop.org/books/no-rings-attached/9781542037419",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.04",
+        "sale": "$12.95",
+        "PublishDate": "April 12, 2022",
+        "Publisher": "Montlake",
+        "Pages": "304",
+        "Dimensions": "5.4 X 8.1 X 1.0 inches | 0.7 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Rachel Lacey",
+        "about": "Rachel Lacey is an award-winning contemporary romance author and semireformed travel junkie. She's been climbed by a monkey on a mountain in Japan, gone scuba diving on the Great Barrier Reef, and camped out overnight in New York City for a chance to be an extra in a movie. These days, the majority of her adventures take place on the pages of the books she writes. She lives in warm and sunny North Carolina with her family and a variety of rescue pets.Rachel loves to keep in touch with her readers, who can subscribe to her e-newsletter for exclusive news and giveaways (http: //subscribepage.com/rachellaceyauthor). Visit her at www.RachelLacey.com or on Facebook at www.Facebook.com/RachelLaceyAuthor, and don't forget to follow her on Twitter (@rachelslacey)."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781542037419.jpg?height=500&v=v2-383fecce34ebe03c02aaa5b21bcff8b1"
+    }
+  },
+  {
+    "bookName": "The Dating Dare",
+    "bookAuthor": "Jayci Lee",
+    "bookPrice": "$16.99 $15.80",
+    "linkDetail": "https://bookshop.org/books/the-dating-dare-9781250621122/9781250621122",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "",
+        "sale": "",
+        "PublishDate": "",
+        "Publisher": "",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "",
+        "Type": "",
+        "description": []
+      },
+      "Author": {
+        "name": "",
+        "about": ""
+      }
+    }
+  },
+  {
+    "bookName": "The Do-Over",
+    "bookAuthor": "Bethany Turner",
+    "bookPrice": "$16.99 $15.80",
+    "linkDetail": "https://bookshop.org/books/the-do-over-9780785244974/9780785244974",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.80",
+        "sale": "$16.99",
+        "PublishDate": "March 15, 2022",
+        "Publisher": "Thomas Nelson",
+        "Pages": "320",
+        "Dimensions": "5.4 X 8.3 X 0.9 inches | 0.55 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Bethany Turner",
+        "about": "Bethany Turner has been writing since the second grade, when she won her first writing award for explaining why, if she could have lunch with any person throughout history, she would choose John Stamos. She stands by this decision. Bethany now writes pop culture-infused rom-coms for a new generation of readers who crave fiction that tackles the thorny issues of life with humor and insight. She lives in Southwest Colorado with her husband, whom she met in the nineties in a chat room called Disco Inferno. As sketchy as it sounds, it worked out pretty well in this case, and they are now the proud parents of two teenagers. Connect with Bethany at seebethanywrite.com or across social media @seebethanywrite, where she clings to the eternal dream that John Stamos will someday send her a friend request."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780785244974.jpg?height=500&v=v2-9df6d6425cab68952774c8631797714b"
+    }
+  },
+  {
+    "bookName": "A Thousand Miles",
+    "bookAuthor": "Bridget Morrissey",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/a-thousand-miles-9780593201176/9780593201176",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "",
+        "sale": "",
+        "PublishDate": "",
+        "Publisher": "",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "",
+        "Type": "",
+        "description": []
+      },
+      "Author": {
+        "name": "",
+        "about": ""
+      }
+    }
+  },
+  {
+    "bookName": "Cream and Punishment",
+    "bookAuthor": "Susannah Nix",
+    "bookPrice": "$18.99 $17.66",
+    "linkDetail": "https://bookshop.org/books/cream-and-punishment/9781950087129",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "",
+        "sale": "",
+        "PublishDate": "",
+        "Publisher": "",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "",
+        "Type": "",
+        "description": []
+      },
+      "Author": {
+        "name": "",
+        "about": ""
+      }
+    }
+  },
+  {
+    "bookName": "Always Be My Duchess",
+    "bookAuthor": "Amalie Howard",
+    "bookPrice": "$15.99 $14.87",
+    "linkDetail": "https://bookshop.org/books/always-be-my-duchess/9781538737712",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.87",
+        "sale": "$15.99",
+        "PublishDate": "July 12, 2022",
+        "Publisher": "Forever",
+        "Pages": "368",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "--Jodi Picoult, #1 ",
+          "--Eloisa James, "
+        ]
+      },
+      "Author": {
+        "name": "Amalie Howard",
+        "about": "AMALIE HOWARD is the author of the Publishers Weekly bestseller, The Beast of Beswick, which Entertainment Weekly touted as bursting with shrewd banter, inventively sexy interludes, and emotion with a capital E. She is the co-author of the #1 bestsellers in regency romance and Scottish historical romance, My Hellion, My Heart and What A Scot Wants, and has also penned several award-winning young adult novels, critically acclaimed by Kirkus, Publishers Weekly, VOYA, School Library Journal, and Booklist, including Waterfell, The Almost Girl, and Alpha Goddess, a Kid's INDIE NEXT selection. Of Indo-Caribbean descent, she has written articles on multicultural fiction for The Portland Book Review and Ravishly magazine. She currently resides in Colorado with her husband and three children. Visit her at www.amaliehoward.com."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781538737712.jpg?height=500&v=v2-64739525ac811f2cbc79383d70799903"
+    }
+  },
+  {
+    "bookName": "Love in the Time of Serial Killers",
+    "bookAuthor": "Alicia Thompson",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/love-in-the-time-of-serial-killers/9780593438657",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.81",
+        "sale": "$17.00",
+        "PublishDate": "August 16, 2022",
+        "Publisher": "Berkley Books",
+        "Pages": "352",
+        "Dimensions": "5.5 X 8.25 X 0.81 inches | 0.67 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Alicia Thompson",
+        "about": "Alicia Thompson is a writer, reader, and Paramore superfan. As a teen, she appeared in an episode of 48 hours in the audience of a local murder trial, where she broke the fourth wall by looking directly into the camera. She currently lives in Florida with her husband and two children."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593438657.jpg?height=500&v=v2-2f992f93a11e43da05f556a3298bd814"
+    }
+  },
+  {
+    "bookName": "The Apothecary Diaries 05 (Manga)",
+    "bookAuthor": "Natsu Hyuuga and Nekokurage",
+    "bookPrice": "$10.99 $10.22",
+    "linkDetail": "https://bookshop.org/books/the-apothecary-diaries-05-manga/9781646090747",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$10.22",
+        "sale": "$10.99",
+        "PublishDate": "July 12, 2022",
+        "Publisher": "Square Enix Manga",
+        "Pages": "176",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Natsu Hyuuga Nekokurage Itsuki Nanao",
+        "about": "Natsu Hyuuga is the author of The Apothecary Diaries light novel series. This is Nekokurage's first manga adaptation of a light novel series."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646090747.jpg?height=500&v=v2-33ecdf06c0dd1f4b979d8714f398af35"
+    }
+  },
+  {
+    "bookName": "Small Magics",
+    "bookAuthor": "Ilona Andrews",
+    "bookPrice": "$16.99",
+    "linkDetail": "https://bookshop.org/books/small-magics-9781641971973/9781641971973",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.99",
+        "sale": "",
+        "PublishDate": "September 17, 2015",
+        "Publisher": "Nancy Yost Literary Agency, Inc",
+        "Pages": "336",
+        "Dimensions": "5.5 X 8.5 X 0.7 inches | 0.86 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Ilona Andrews",
+        "about": "Ilona Andrews\" is the pseudonym for a husband-and-wife writing team. Ilona is a native-born Russian, and Gordon is a former communications sergeant in the U.S. Army. Contrary to popular belief, Gordon was never an intelligence officer with a license to kill, and Ilona was never the mysterious Russian spy who seduced him. They met in college, in English Composition 101, where Ilona got a better grade. (Gordon is still sore about that.) They have co-authored four New York Times and USA Today bestselling series: the urban fantasy of Kate Daniels, rustic fantasy of the Edge, paranormal romance of Hidden Legacy, and Innkeeper Chronicles. They live in Texas with their two children and many dogs and cats."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781641971973.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Second Star to the Left",
+    "bookAuthor": "Megan Van Dyke",
+    "bookPrice": "$28.74",
+    "linkDetail": "https://bookshop.org/books/second-star-to-the-left-9781648981395/9781648981678",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "",
+        "sale": "",
+        "PublishDate": "",
+        "Publisher": "",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "",
+        "Type": "",
+        "description": []
+      },
+      "Author": {
+        "name": "",
+        "about": ""
+      }
+    }
+  },
+  {
+    "bookName": "Paladin's Strength",
+    "bookAuthor": "T. Kingfisher",
+    "bookPrice": "$28.69",
+    "linkDetail": "https://bookshop.org/books/paladin-s-strength/9781614505303",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$28.69",
+        "sale": "",
+        "PublishDate": "February 28, 2021",
+        "Publisher": "Argyll Productions",
+        "Pages": "438",
+        "Dimensions": "6.0 X 9.0 X 0.94 inches | 1.62 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": {}
+      },
+      "Author": {
+        "name": "T. Kingfisher",
+        "about": "T. Kingfisher is the vaguely absurd pen-name of Ursula Vernon, an author from North Carolina. In another life, she writes children's books and weird comics. She has been nominated for the World Fantasy and the Eisner, and has won the Hugo, Sequoyah, Nebula, Alfie, WSFA, Cóyotl, and Ursa Major awards, as well as a half-dozen Junior Library Guild selections. This is the name she uses when writing things for grown-ups. Her work includes multiple fairy-tale retellings and odd little stories about elves and goblins. When she is not writing, she is probably out in the garden, trying to make eye contact with butterflies. www.redwombatstudio.com"
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781614505303.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "If I Never Met You",
+    "bookAuthor": "Mhairi McFarlane",
+    "bookPrice": "$15.99 $14.87",
+    "linkDetail": "https://bookshop.org/books/if-i-never-met-you/9780062958501",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "",
+        "sale": "",
+        "PublishDate": "",
+        "Publisher": "",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "",
+        "Type": "",
+        "description": []
+      },
+      "Author": {
+        "name": "",
+        "about": ""
+      }
+    }
+  },
+  {
+    "bookName": "A Kingdom of Ruin",
+    "bookAuthor": "K. F. Breene",
+    "bookPrice": "$28.99",
+    "linkDetail": "https://bookshop.org/books/a-kingdom-of-ruin-9781955757195/9781955757171",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$28.99",
+        "sale": "",
+        "PublishDate": "February 07, 2022",
+        "Publisher": "Hazy Dawn Press, Inc.",
+        "Pages": "454",
+        "Dimensions": "6.0 X 9.0 X 1.13 inches | 1.8 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": {}
+      },
+      "Author": {
+        "name": "K. F. Breene",
+        "about": "K.F. Breene is a Wall Street Journal, USA Today, Washington Post, Amazon Most Sold and #1 Kindle Store bestselling author of paranormal romance, urban fantasy and fantasy novels. With millions of books sold, when she's not penning stories about magic and what goes bump in the night, she's sipping wine and planning shenanigans. She lives in Northern California with her husband, two children, and out of work treadmill."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781955757171.jpg?height=500&v=v2"
+    }
+  }
+]

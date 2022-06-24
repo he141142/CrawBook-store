@@ -29,6 +29,7 @@ module.exports = class queue {
   isEmpty() {
     return this.queue.length === 0;
   }
+  sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
   enqueue = async (task, ...params) => {
     this.tasks.push({task, params}); // Add task to the list
@@ -53,6 +54,7 @@ module.exports = class queue {
     if (this.visited.has(url)) {
       return;
     }
+    // await this.sleep(10000);
 
     await task(...param);
   };

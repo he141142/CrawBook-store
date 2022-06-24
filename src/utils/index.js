@@ -77,10 +77,14 @@ class DataUtils {
 
   }
 
-  extractFileName = (link) =>{
+  extractFileName = (link, SpecialCharacter = null) => {
     const arrUrlSplit = link.split("https://bookshop.org/");
-    const getEnd = arrUrlSplit[1].split("/");
-    return getEnd[getEnd.length-1]+".json";
+    let getEnd = arrUrlSplit[1].split("/");
+    let rel = getEnd[getEnd.length - 1];
+    if (SpecialCharacter) {
+      rel = rel.replace(SpecialCharacter, "");
+    }
+    return rel + ".json";
   }
 
 

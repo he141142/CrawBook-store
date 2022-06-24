@@ -16,6 +16,8 @@ module.exports = class BookScraperRouter extends BaseRouter {
     this.get("/bookShopScrape", this.crawbookShopScrape);
     this.get("/crawFictionInSpecificLink", this.crawFictionInSpecificLink);
     this.get("/extractBookInViewMore", this.extractBookInViewMore);
+    this.get("/extractBookInOnePage", this.extractBookInOnePage);
+
     this.get("/extractBookInViewMoreFromDatabase",
         this.extractBookFromDatabase);
     this.get("/extractBookDetail",this.extractBookDetail);
@@ -59,10 +61,6 @@ module.exports = class BookScraperRouter extends BaseRouter {
     CustomResponse.sendObject(res, 200, {
       dataArr: [...data]
     });
-    // console.log(arrUrlSplit)
-    // CustomResponse.sendObject(res, 200, {
-    //   dataArr: getEnd[getEnd.length-1]+".json"
-    // });
   }
 
   extractBookFromDatabase = async (req, res, next) => {
@@ -81,7 +79,6 @@ module.exports = class BookScraperRouter extends BaseRouter {
     if (book instanceof Error) {
       return nextErr(new ErrorHandler(400, book.message), req, res, next);
     }
-    dataUtils.consoleLogWithColor(book);
     CustomResponse.sendObject(res, 200, {
       ...book
     });
@@ -92,6 +89,20 @@ module.exports = class BookScraperRouter extends BaseRouter {
     if (data instanceof Error) {
       return nextErr(new ErrorHandler(400, data.message), req, res, next);
     }
+    let specialCharacter = req.query.link.includes("?")? "?":null;
+    console.log(specialCharacter)
+    writeJSONFile(dataUtils.extractFileName(req.query.link,specialCharacter),data);
+    CustomResponse.sendObject(res, 200, {
+      dataArr: [...data]
+    });
+  }
+
+  extractBookInOnePage = async (req,res,next) =>{
+    const data = await this.bookShopScrape.extractBookOnePage(req.query.link);
+    if (data instanceof Error) {
+      return nextErr(new ErrorHandler(400, data.message), req, res, next);
+    }
+    writeJSONFile(dataUtils.extractFileName(req.query.link,"?"),data);
     CustomResponse.sendObject(res, 200, {
       dataArr: [...data]
     });
