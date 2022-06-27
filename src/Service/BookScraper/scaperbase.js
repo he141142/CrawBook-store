@@ -23,6 +23,7 @@ const userAgent = require('user-agents');
 const dataUntil = require("../../utils/index");
 
 module.exports = class BaseScraper extends BaseService {
+  htmlResults = [];
   BOOK_DATA_PATH = "/queerRomancePack.json";
   url = null;
   useHeadless = true;
@@ -86,19 +87,103 @@ module.exports = class BaseScraper extends BaseService {
         solved,
         error)
   }
-  getHtml = async (url,waitUntilElm=null) => {
+  getHtml = async (url, waitUntilElm = null) => {
     logger.info("url : " + this.url)
     logger.info("Use headless: " + this.useHeadless)
-    return this.useHeadless ? await this.getHtmlPlaywright(url,waitUntilElm)
+    return this.useHeadless ? await this.getHtmlPlaywright(url, waitUntilElm)
         : await this.getHtmlAxios(url);
   };
 
-  doAgain = async (task,...param) =>{
+  doAgain = async (task, ...param) => {
     return await (task(...param));
   }
 
+  withPage = (browser) => async (fn) => {
+    const page = await browser.newPage();
+    await this.configPage(page);
+    try {
+      return await fn(page);
+    } finally {
+      await page.close();
+    }
+  }
 
-  getHtmlPlaywright = async (url,waitUntilElm=null) => {
+  withPageFn = async (results, url, waitUntilElm) => {
+    return async (page) => {
+      try {
+        await page.goto(url);
+        await page.goto(url, {
+          waitUntil: 'load',
+          timeout: 0
+        });
+        const session = await page.target().createCDPSession();
+        await session.send('Page.enable');
+        await session.send('Page.setWebLifecycleState', {state: 'active'});
+        await page.waitForTimeout(5000);
+        await page.goto(url);
+
+        await this.resolveRecaptcha(page);
+        // await page.waitForNavigation({waitUntil: 'networkidle2'});
+        if (waitUntilElm) {
+          await page.waitForSelector(waitUntilElm, {timeout: 2000});
+        }
+        const html = await page.content();
+        this.htmlResults.push(html);
+        return html;
+      } catch (e) {
+        logger.info("let do this again!")
+        await this.doAgain(this.withPageFn, this.htmlResults, url,
+            waitUntilElm);
+      }
+      // run test code
+    }
+  }
+
+  getAllHtml = async (urls, waitUntilElm) => {
+    await this.withBrowser(async (browser) => {
+      await Promise.all(urls.map(async (url) => {
+        await this.withPage(browser)(
+           await this.withPageFn(this.htmlResults, url, waitUntilElm));
+      }));
+    });
+    return this.htmlResults;
+  }
+
+  withBrowser = async (fn) => {
+    logger.info("pupeeter lauching....")
+    const browser = await puppeteer.launch({
+      ...this.browserCfg,
+      args: [
+        `--window-size=600,1000`,
+        "--window-position=000,000",
+        "--disable-dev-shm-usage",
+        '--no-sandbox', '--disable-setuid-sandbox',
+        `args: ['--proxy-server=socks5://localhost:8002']`,
+        '--user-data-dir="/tmp/chromium"',
+        "--disable-web-security",
+        "--disable-features=site-per-process",
+      ],
+    });
+    try {
+       await fn(browser);
+    }
+    catch (e){
+      console.log(e)
+    }finally {
+      await browser.close();
+    }
+  }
+
+  configPage = async (page) => {
+    await page.setExtraHTTPHeaders({referrer: config.HTTP_HEADER_REFERRER});
+    // await page.setUserAgent(userAgent.toString());
+    await page.setUserAgent(
+        'Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0')
+    await page.setJavaScriptEnabled(true);
+    await page.setDefaultNavigationTimeout(9000000);
+  }
+
+  getHtmlPlaywright = async (url, waitUntilElm = null) => {
     logger.info("url: " + url)
     // const newProxyUrl = await proxyChain.anonymizeProxy(this.oldProxy);
 
@@ -116,7 +201,6 @@ module.exports = class BaseScraper extends BaseService {
       ],
     });
     try {
-      console.log("Lauching playwright: " + {...this.browserCfg})
       const page = await browser.newPage();
       await page.setExtraHTTPHeaders({referrer: config.HTTP_HEADER_REFERRER});
       // await page.setUserAgent(userAgent.toString());
@@ -133,18 +217,7 @@ module.exports = class BaseScraper extends BaseService {
       await session.send('Page.setWebLifecycleState', {state: 'active'});
       await page.waitForTimeout(5000);
       await page.goto(url);
-      // const {
-      //   captchas,
-      //   filtered,
-      //   solutions,
-      //   solved,
-      //   error
-      // } =await page.solveRecaptchas();
-      // console.log( captchas,
-      //     filtered,
-      //     solutions,
-      //     solved,
-      //     error)
+
       await this.resolveRecaptcha(page);
       // await page.waitForNavigation({waitUntil: 'networkidle2'});
       if(waitUntilElm)
@@ -185,13 +258,15 @@ module.exports = class BaseScraper extends BaseService {
     return this.cheerio;
   }
 
-  loadHtmlCheerio = async () => {
-    const html = await this.getHtml(this.url);
+  loadHtmlCheerio = async (htmlResult = null) => {
+    const html = htmlResult === null ? await this.getHtml(this.url)
+        : htmlResult;
     return cheerio.load(html);
   }
 
-  loadHtmlCheerio = async (url,waitUntilElm=null) => {
-    const html = await this.getHtml(url,waitUntilElm);
+  loadHtmlCheerio = async (url, waitUntilElm = null, htmlResult = null) => {
+    const html = htmlResult === null ? await this.getHtml(url, waitUntilElm)
+        : htmlResult;
     return cheerio.load(html);
   }
 

@@ -1,0 +1,564 @@
+[
+  {
+    "bookName": "Ayako",
+    "bookAuthor": "Osamu Tezuka",
+    "bookPrice": "$24.95 $23.20",
+    "linkDetail": "https://bookshop.org/books/ayako/9781935654780",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$23.20",
+        "sale": "$24.95",
+        "PublishDate": "February 12, 2013",
+        "Publisher": "Vertical Comics",
+        "Pages": "704",
+        "Dimensions": "6.13 X 8.03 X 1.79 inches | 1.84 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Osamu Tezuka",
+        "about": "Osamu Tezuka (1928-89) is the godfather of Japanese manga comics. He originally intended to become a doctor and earned his degree before turning to what was then a medium for children. His many early masterpieces include the series known in the U.S. as Astro Boy. With his sweeping vision, deftly interwined plots, feel for the workings of power, and indefatigable commitment to human dignity, Tezuka elevated manga to an art form. The later Tezuka, when he authored Buddha, often had in mind the mature readership that manga gained in the sixties and that had only grown ever since. The Kurosawa of Japanese pop culture, Osamu Tezuka is a twentieth century classic."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781935654780.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "A Silent Voice Complete Collector's Edition 2",
+    "bookAuthor": "Yoshitoki Oima",
+    "bookPrice": "$44.99 $41.84",
+    "linkDetail": "https://bookshop.org/books/a-silent-voice-complete-collector-s-edition-2/9781646514069",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "June 07, 2022",
+        "Publisher": "Seven Seas",
+        "Pages": "136",
+        "Dimensions": "5.9 X 8.22 X 0.43 inches | 0.69 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Syu Yasaka",
+        "about": "Syu Yasaka is a Japanese manga creator best known for Monologue Woven For You."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781638582922.jpg?height=500&v=v2-cba57d3da0ed7cbade157738ccdc4ca5"
+    }
+  },
+  {
+    "bookName": "Monologue Woven for You Vol. 2",
+    "bookAuthor": "Syu Yasaka",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/monologue-woven-for-you-vol-2/9781638582922",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$41.84",
+        "sale": "$44.99",
+        "PublishDate": "September 13, 2022",
+        "Publisher": "Kodansha Comics",
+        "Pages": "768",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": [
+          "A very rare chance to see characters with disabilities represented on the page and a harsh light shed on the way that Japanese culture handles this difficult topic. -Comics Bulletin",
+          "This deluxe, large-sized hardcover includes the first half of the story of A Silent Voice, extending from the second half of Vol. 4 through the end of the series, as well as over fifty pages of content never published in English before, such as the early drafts of the story, behind-the-scenes details from creator Yoshitoki Oima, and color art and concept sketch galleries. Collectors and new readers alike won't want to miss it!\n      "
+        ]
+      },
+      "Author": {
+        "name": "Yoshitoki Oima",
+        "about": "Yoshitoki Oima is the author of the acclaimed A Silent Voice, the seven-volume series that became a global bestseller, and To Your Eternity, the acclaimed fantasy epic that inspired the anime. Oima's first manga to be released in English was Mardock Scramble in 2011, a collaboration with the prolific Japanese writer Tow Ubukata."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646514069.jpg?height=500&v=v2-3ca8745edc74c30c240e81e7185e32e8"
+    }
+  },
+  {
+    "bookName": "Interviews with Monster Girls, Volume 2",
+    "bookAuthor": "Petos",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/interviews-with-monster-girls-volume-2/9781632363879",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "January 17, 2017",
+        "Publisher": "Kodansha Comics",
+        "Pages": "144",
+        "Dimensions": "5.8 X 8.2 X 0.5 inches | 0.4 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Petos",
+        "about": ""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781632363879.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Secret Garden",
+    "bookAuthor": "Frances Hodgson Burnett",
+    "bookPrice": "$11.99 $11.15",
+    "linkDetail": "https://bookshop.org/books/the-secret-garden-b991240c-c2a2-496e-a179-8d5316288677/9780349009650",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "October 18, 2022",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kanehito Yamada Tsukasa Abe",
+        "about": ""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974734009.jpg?height=500&v=v2-2ebce1327d8e1f11c25c32ece3384228"
+    }
+  },
+  {
+    "bookName": "I Can't Believe I Slept with You! Vol. 2",
+    "bookAuthor": "Miyako Miyahara",
+    "bookPrice": "$13.99 $13.01",
+    "linkDetail": "https://bookshop.org/books/i-can-t-believe-i-slept-with-you-vol-2/9781638583042",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.95",
+        "sale": "$15.00",
+        "PublishDate": "August 23, 2022",
+        "Publisher": "Yen Press",
+        "Pages": "224",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Ryoko Kui",
+        "about": "Ryoko Kui is the author of Delicious in Dungeon."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781975346720.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Delicious in Dungeon, Vol. 11",
+    "bookAuthor": "Ryoko Kui",
+    "bookPrice": "$15.00 $13.95",
+    "linkDetail": "https://bookshop.org/books/delicious-in-dungeon-vol-11/9781975346720",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.01",
+        "sale": "$13.99",
+        "PublishDate": "June 14, 2022",
+        "Publisher": "Seven Seas",
+        "Pages": "188",
+        "Dimensions": "4.9 X 7.0 X 0.8 inches | 0.39 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Miyako Miyahara",
+        "about": "Miyako Miyahara is a manga creator in Japan best known for Even If It Was Just Once, I Regret It."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781638583042.jpg?height=500&v=v2-84355a51f3487fc086bad755542da41b"
+    }
+  },
+  {
+    "bookName": "Frieren: Beyond Journey's End, Vol. 6: Volume 6",
+    "bookAuthor": "Kanehito Yamada and Tsukasa Abe",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/frieren-beyond-journey-s-end-vol-6-volume-6/9781974734009",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$11.15",
+        "sale": "$11.99",
+        "PublishDate": "December 05, 2017",
+        "Publisher": "Virago Press (UK)",
+        "Pages": "320",
+        "Dimensions": "5.0 X 7.7 X 0.8 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "'There is an old-fashioned tenderness and joy to it; the sense that magic happens if you are observant and quiet and know it will' Sophie Dahl",
+          "A collection that will be coveted by children and adults alike, this list is the best in children's literature, curated by Virago. These are timeless tales with beautiful covers, that will be treasured and shared across the generations. Some titles you will already know; some will be new to you, but there are stories for everyone to love, whatever your age. Our list includes Nina Bawden ("
+        ]
+      },
+      "Author": {
+        "name": "Frances Hodgson Burnett",
+        "about": "Frances Hodgson Burnett was born in Manchester, England, in 1849 but moved to America in 1865 after her father died and her family fell on hard times. There she began writing stories to earn money and soon became a successful novelist, playwright, and children's author. She wrote the classic novels, Little Lord Fauntleroy, A Little Princess and The Secret Garden."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780349009650.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Magical Boy Volume 2: A Graphic Novel",
+    "bookAuthor": "The Kao",
+    "bookPrice": "$15.99 $14.87",
+    "linkDetail": "https://bookshop.org/books/magical-boy-volume-2-a-graphic-novel/9781338815924",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "October 06, 2020",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "4.9 X 7.4 X 0.6 inches | 0.35 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Tatsuki Fujimoto",
+        "about": "Tatsuki Fujimoto won Honorable Mention in the November 2013 Shueisha Crown Newcomers' Awards for his debut one-shot story Love is Blind. His first series Fire Punch ran for eight volumes. Chainsaw Man began serialization in 2018 in Weekly Shonen Jump."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974709939.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Sensei's Pious Lie 2",
+    "bookAuthor": "Akane Torikai",
+    "bookPrice": "$24.95 $23.20",
+    "linkDetail": "https://bookshop.org/books/sensei-s-pious-lie-2/9781647291136",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.01",
+        "sale": "$13.99",
+        "PublishDate": "November 01, 2022",
+        "Publisher": "Seven Seas",
+        "Pages": "160",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "\n      "
+        ]
+      },
+      "Author": {
+        "name": "Takashi Ikeda",
+        "about": "Takashi Ikeda is a Japanese manga creator best known for the manga Whispered Words (which was adapted into an anime) and The Two of Them Are Pretty Much Like This."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781638582960.jpg?height=500&v=v2-9127fa82b2f058ccb5018d64582462b1"
+    }
+  },
+  {
+    "bookName": "The Two of Them Are Pretty Much Like This Vol. 2",
+    "bookAuthor": "Takashi Ikeda",
+    "bookPrice": "$13.99 $13.01",
+    "linkDetail": "https://bookshop.org/books/the-two-of-them-are-pretty-much-like-this-vol-2/9781638582960",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.87",
+        "sale": "$15.99",
+        "PublishDate": "September 06, 2022",
+        "Publisher": "Graphix",
+        "Pages": "336",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "The Kao",
+        "about": "The Kao is Vincent Kao, an illustrator and comic artist known for his slice-of-life web series, Mondo Mango, and the Prism Award-winning webcomic, Magical Boy - both original series available at Tapas. Vincent graduated from Columbia College in Chicago with a Bachelor of Fine Arts in Illustration. He started his career through a series of comic strips surrounding his daily life and since then has freelanced, self-published, as well as collaborated in a few crowdfunded comic anthologies, all under The Kao name. To this day, he continues to work on his illustrations and comics in hopes to inspire and bring joy to everyone around him. For more information, please visit www.thekao.net."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781338815924.jpg?height=500&v=v2-60cda9fab76386b5e54bfab67b728de4"
+    }
+  },
+  {
+    "bookName": "Chainsaw Man, Vol. 1: Volume 1",
+    "bookAuthor": "Tatsuki Fujimoto",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/chainsaw-man-vol-1-volume-1/9781974709939",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$23.20",
+        "sale": "$24.95",
+        "PublishDate": "July 05, 2022",
+        "Publisher": "Vertical Comics",
+        "Pages": "390",
+        "Dimensions": "5.5 X 7.4 X 1.2 inches | 0.8 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Akane Torikai",
+        "about": "Debuting in 2004, Torikai has released over 10 works and was an assistant for Minoru Furuya for a year and a half. In 2014, Oyaho Okaeri (Good Morning Welcome Home) ranked #9 on the 2014 this manga is amazing (female) list. Sensei's Pious Lie will be Torikai's debut work in English."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781647291136.jpg?height=500&v=v2-e11357c1bf7cbea9bdd5b364d8731172"
+    }
+  },
+  {
+    "bookName": "My Hero Academia, Vol. 1: Volume 1",
+    "bookAuthor": "Kohei Horikoshi",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/my-hero-academia-vol-1-volume-1-bf4884d2-5982-455e-ad48-a91661378496/9781421582696",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.09",
+        "sale": "$13.00",
+        "PublishDate": "January 28, 2020",
+        "Publisher": "Yen Press",
+        "Pages": "180",
+        "Dimensions": "5.0 X 7.4 X 0.7 inches | 0.42 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Aidairo",
+        "about": "AidaIro is the creator of the Toilet-bound Hanako-kun manga series."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781975332877.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Jujutsu Kaisen, Vol. 14: Volume 14",
+    "bookAuthor": "Gege Akutami",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/jujutsu-kaisen-vol-14-volume-14/9781974725328",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "December 01, 2009",
+        "Publisher": "Viz Media",
+        "Pages": "608",
+        "Dimensions": "5.0 X 7.4 X 1.3 inches | 0.85 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Eiichiro Oda",
+        "about": ""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781421536255.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Toilet-Bound Hanako-Kun, Vol. 1",
+    "bookAuthor": "Aidairo",
+    "bookPrice": "$13.00 $12.09",
+    "linkDetail": "https://bookshop.org/books/toilet-bound-hanako-kun-vol-1/9781975332877",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "February 01, 2022",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "4.9 X 7.4 X 0.6 inches | 0.35 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Gege Akutami",
+        "about": "Gege Akutami published a few short works before starting Jujutsu Kaisen, which began serialization in Weekly Shonen Jump in 2018."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974725328.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "One Piece (Omnibus Edition), Vol. 1, 1: Includes Vols. 1, 2 & 3",
+    "bookAuthor": "Eiichiro Oda",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/one-piece-omnibus-edition-vol-1-1-includes-vols-1-2-3-9781421536255/9781421536255",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "August 04, 2015",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "5.0 X 7.4 X 0.7 inches | 0.38 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kohei Horikoshi",
+        "about": "Kohei Horikoshi was born in Aichi, Japan, in 1986. He received a Tezuka Award Honorable Mention in 2006, and after publishing several short stories in Akamaru Jump, his first serialized work in Weekly Shonen Jump was Oumagadoki Zoo in 2010. My Hero Academia is his third series in Weekly Shonen Jump."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781421582696.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Deserter: Junji Ito Story Collection",
+    "bookAuthor": "Junji Ito",
+    "bookPrice": "$22.99 $21.38",
+    "linkDetail": "https://bookshop.org/books/deserter-junji-ito-story-collection/9781974719860",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$18.58",
+        "sale": "$19.98",
+        "PublishDate": "August 17, 2021",
+        "Publisher": "Viz Media",
+        "Pages": "240",
+        "Dimensions": "6.0 X 8.3 X 1.0 inches | 1.06 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Junji Ito",
+        "about": "Junji Ito made his professional manga debut in 1987 and since then has gone on to be recognized as one of the greatest contemporary artists working in the horror genre. His titles include Tomie and Uzumaki, which have been adapted into live-action films; Gyo, which was adapted into an animated film; his short story collections Fragments of Horror, Frankenstein, Lovesickness, Shiver, Smashed and Venus in the Blind Spot; and Remina, all of which are available from VIZ Media. Ito's influences include classic horror manga artists Kazuo Umezz and Hideshi Hino, as well as authors Yasutaka Tsutsui and H.P. Lovecraft. His collection Frankenstein won the 2019 Eisner Award in the \"Best Adaptation from Another Medium\" category and his long-form manga No Longer Human has received critical acclaim for his spectacular adaptation of Osamu Dazai's 1948 novel."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974718900.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Sensor",
+    "bookAuthor": "Junji Ito",
+    "bookPrice": "$19.98 $18.58",
+    "linkDetail": "https://bookshop.org/books/sensor-9781974718900/9781974718900",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$21.38",
+        "sale": "$22.99",
+        "PublishDate": "April 16, 2019",
+        "Publisher": "Viz Media",
+        "Pages": "416",
+        "Dimensions": "5.8 X 8.3 X 1.2 inches | 1.5 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Junji Ito",
+        "about": "Junji Ito made his professional manga debut in 1987 and since then has gone on to be recognized as one of the greatest contemporary artists working in the horror genre. His titles include Tomie and Uzumaki, which have been adapted into live-action films; Gyo, which was adapted into an animated film; and his short story collections Fragments of Horror, Shiver and Frankenstein, all of which are available from VIZ Media. Ito's influences include classic horror manga artists Kazuo Umezz and Hideshi Hino, as well as authors Yasutaka Tsutsui and H.P. Lovecraft."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781421598468.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Vagabond (Vizbig Edition), Vol. 1: Volume 1",
+    "bookAuthor": "Takehiko Inoue",
+    "bookPrice": "$19.99 $18.59",
+    "linkDetail": "https://bookshop.org/books/vagabond-vizbig-edition-vol-1-volume-1/9781421520544",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$21.38",
+        "sale": "$22.99",
+        "PublishDate": "December 21, 2021",
+        "Publisher": "Viz Media",
+        "Pages": "392",
+        "Dimensions": "6.01 X 8.4 X 1.25 inches | 1.45 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Junji Ito",
+        "about": "Junji Ito made his professional manga debut in 1987 and since then has gone on to be recognized as one of the greatest contemporary artists working in the horror genre. His titles include Tomie and Uzumaki, which have been adapted into live-action films; Gyo, which was adapted into an animated film; and his books Fragments of Horror, Frankenstein, Lovesickness, No Longer Human, Remina, Shiver, Smashed, and Venus in the Blind Spot, all of which are available from VIZ Media. Ito's influences include classic horror manga artists Kazuo Umezz and Hideshi Hino, as well as authors Yasutaka Tsutsui and H.P. Lovecraft. He is a three-time Eisner Award winner. In 2019 his collection Frankenstein won in the \"Best Adaptation from Another Medium\" category, and in 2021 he was awarded \"Best Writer/Artist,\" while Remina received the award for \"Best U.S. Edition of International Material (Asia).\""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974719860.jpg?height=500&v=v2-5dfd9654c035a3d27e4f063e96b51ded"
+    }
+  },
+  {
+    "bookName": "Smashed: Junji Ito Story Collection",
+    "bookAuthor": "Junji Ito",
+    "bookPrice": "$22.99 $21.38",
+    "linkDetail": "https://bookshop.org/books/smashed-junji-ito-story-collection/9781421598468",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$18.59",
+        "sale": "$19.99",
+        "PublishDate": "September 01, 2008",
+        "Publisher": "Viz Media",
+        "Pages": "728",
+        "Dimensions": "5.7 X 8.6 X 1.8 inches | 2.65 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Takehiko Inoue",
+        "about": "Takehiko Inoue is the creator of one of the most popular manga of all time, Slam Dunk, which has sold over 100 million copies worldwide. He followed that series up with two titles lauded by critics and fans alike--Vagabond, a fictional account of the life of Miyamoto Musashi, and Real, a manga about wheelchair basketball. Inoue is the recipient of numerous awards, including the prestigious Tezuka Osamu Culture Award and the Media Arts Festival Award. In addition to his work on manga, Inoue has worked on television commercials, character designs for video games, and is the founder of a scholarship to foster Japanese basketball talent."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781421520544.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Bungo Stray Dogs, Volume 1",
+    "bookAuthor": "Kafka Asagiri",
+    "bookPrice": "$13.00 $12.09",
+    "linkDetail": "https://bookshop.org/books/bungo-stray-dogs-volume-1-9780316554701/9780316554701",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.09",
+        "sale": "$13.00",
+        "PublishDate": "December 20, 2016",
+        "Publisher": "Yen Press",
+        "Pages": "192",
+        "Dimensions": "5.0 X 7.5 X 0.6 inches | 0.4 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "\n      "
+        ]
+      },
+      "Author": {
+        "name": "Kafka Asagiri Sango Harukawa",
+        "about": "Kafka Asagiri is the creator and author of Bungo Stray Dogs. Sango Harukawa is the artist of Bungo Stray Dogs."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316554701.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Given, Vol. 1: Volume 1",
+    "bookAuthor": "Natsuki Kizu",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/given-vol-1-volume-1/9781974711826",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.04",
+        "sale": "$12.95",
+        "PublishDate": "July 12, 2022",
+        "Publisher": "Vertical Comics",
+        "Pages": "256",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Shuzo Oshimi",
+        "about": "Only in his late-thirties, Shuzo Oshimi is already considered a seasoned veteran of the Japanese comics community. Winner of the most important comics awards for newcomers, the Tetsuya Chiba Awad in 2001, Oshimi has been penning quirky slice-of-life dramas now for over a decade for major manga publishers including Kodansha. After drawing nine series, Oshimi's star began to rise in 2008 with the release of his first hit, Drifting Net Cafe. This horror-themed homage to the legendary Kazu Umezzo work, Drifting Classroom, was adapted into a live-action series, and propelled Oshimi onto an international stage. He would soon reach new heights in 2009 with The Flowers of Evil. As to date he has over 13 works which include serializations and art contributions."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781647290603.jpg?height=500&v=v2-0e802d29dd8d47696355af2d4565033f"
+    }
+  },
+  {
+    "bookName": "Blood on the Tracks 9",
+    "bookAuthor": "Shuzo Oshimi",
+    "bookPrice": "$12.95 $12.04",
+    "linkDetail": "https://bookshop.org/books/blood-on-the-tracks-9/9781647290603",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "February 11, 2020",
+        "Publisher": "Sublime",
+        "Pages": "202",
+        "Dimensions": "4.9 X 7.0 X 0.7 inches | 0.36 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Natsuki Kizu",
+        "about": "Natsuki Kizu made her professional debut in 2013 with Yukimura Sensei and Kei-kun, followed by the short story collection Links and her breakout series, Given, which has been adapted into drama CDs and an animated TV series. To find out more about her works, you can follow her on Twitter at @kizu_ntk."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974711826.jpg?height=500&v=v2"
+    }
+  }
+]

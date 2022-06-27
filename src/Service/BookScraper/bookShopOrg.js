@@ -20,7 +20,6 @@ module.exports = class BookShopScrape extends BaseScraper {
     super();
     try {
       mkdirSync(config.BASE_PATH + "/jsonStorage");
-      console.log("base path: " + config.BASE_PATH)
     } catch (e) {
       logger.error("jsonStorage May be not initialized!");
     }
@@ -132,8 +131,6 @@ module.exports = class BookShopScrape extends BaseScraper {
   }
 
   getAllFictionTitle = $ => {
-    logger.info("entry")
-    console.log("entry");
     let SubTypeObj = {};
      return  $("div.measure.grid.grid-cols-2.col-gap-4.row-gap-16").find(
         "section.col-span-2.pb-4.section").map((__, sec) => {
@@ -171,7 +168,6 @@ module.exports = class BookShopScrape extends BaseScraper {
       const $ = await this.loadHtmlCheerio(linkToVisit);
       let linkSiteObject = this.getLinkSites($);
       let linkPages = linkSiteObject.linkPage;
-      console.log("link pages: " + linkPages);
       let BooksOver = (linkPages.length === 0 || !linkPages)
           ? await this.exTractBookInSubTypePerPage(
               $)
@@ -182,7 +178,6 @@ module.exports = class BookShopScrape extends BaseScraper {
                 return await this.exTractBookInSubTypePerPage(q);
               })))
       await BooksOver;
-      console.log("BooksOver: " + BooksOver)
       return BooksOver;
     } catch (e) {
       console.log(e);
@@ -283,7 +278,6 @@ module.exports = class BookShopScrape extends BaseScraper {
 
   getBookDetailElm = (mb8List, $) => {
     try {
-      this.dataUtilInstance.consoleLogWithColor(this.getDescription($));
 
       return {
         price: this.getOffers($).find(
@@ -357,14 +351,14 @@ module.exports = class BookShopScrape extends BaseScraper {
     }
   }
 
-  goToBookDetail = async (book, q = null) => {
+  goToBookDetail = async (book, q = null,html) => {
     try {
       if (q) {
         q.visited.add(book.linkDetail);
         console.log("q running: " + q.running);
       }
       const waitUntilElm = ".grid.grid-cols-auto-1.col-gap-2";
-      const $ = await this.loadHtmlCheerio(book.linkDetail,waitUntilElm);
+      const $ = await this.loadHtmlCheerio(book.linkDetail,waitUntilElm,html);
       const bookDetail = this.extractBookDetail($);
       book.bookDetail = bookDetail;
       this.dataUtilInstance.consoleLogWithColor("bookDetail Crawl: ");
@@ -377,11 +371,21 @@ module.exports = class BookShopScrape extends BaseScraper {
     }
   };
 
+  getLinksBookQueues = (bookQueues) =>{
+    return bookQueues.map(book=>book.linkDetail);
+  }
+
   loadByQueue= async (bookQueues=[],q) =>{
-    console.log("bookQueues:"+bookQueues)
-    console.log(bookQueues)
-      await Promise.all(bookQueues.map(async book=>{
-        return await this.goToBookDetail(book,q);
+    const waitUntilElm = ".grid.grid-cols-auto-1.col-gap-2";
+    const htmlList = await this.getAllHtml(
+        this.getLinksBookQueues(bookQueues),
+        waitUntilElm
+    );
+    //reset
+    this.htmlResults = [];
+      await Promise.all(bookQueues.map(async (book,_)=>{
+        // console.log("_ is "+_)
+        return await this.goToBookDetail(book,q,htmlList[_]);
       }))
   }
 
@@ -391,9 +395,7 @@ module.exports = class BookShopScrape extends BaseScraper {
       let specialCharacter = linkAccordingFile.includes("?") ? "?" : null;
       const books = await this.extractBooksFromStorage(linkAccordingFile,
           specialCharacter);
-      // const links = books.map(book => {
-      //   return book;
-      // });
+
       this.dataUtilInstance.consoleLogWithColor("link extract from database: ");
       this.dataUtilInstance.consoleLogWithColor(books);
 
@@ -403,34 +405,13 @@ module.exports = class BookShopScrape extends BaseScraper {
       let loadByQueue = this.dataUtilInstance.detachArrayByCurrency(nonVisited,4);
 
 
-      // for (const b of nonVisited) {
-      //   await this.queue.enqueue(this.queue.crawlTask, b.linkDetail,
-      //       this.goToBookDetail, b, this.queue);
-      //   // await this.sleep(5000);
-      // }
 
       for (const b of loadByQueue) {
         for (const b2 of b){
           await this.queue.enqueue(this.queue.crawlTask, b2.linkDetail,
               this.loadByQueue, b, this.queue);
         }
-
-        // await this.sleep(5000);
       }
-
-
-      // await Promise.all(books
-      //  .filter(book => !this.queue.visited.has(book.linkDetail)).map(
-      //     async(b)=>{
-      //         return await this.queue.enqueue(this.queue.crawlTask, b.linkDetail,
-      //            this.goToBookDetail, b, this.queue);
-      //      }
-      //  ));
-      // for (const b of nonVisited) {
-      //   await this.queue.enqueue(this.queue.crawlTask, b.linkDetail,
-      //       this.goToBookDetail, b, this.queue);
-      //   // await this.sleep(5000);
-      // }
 
     } catch (e) {
       console.log(e)
@@ -450,7 +431,6 @@ module.exports = class BookShopScrape extends BaseScraper {
       const BooksOver = await Promise.all(
           await this.exTractBookInSubTypePerPage($));
 
-      console.log("BooksOver: " + BooksOver)
       return BooksOver;
     } catch (e) {
       console.log(e);

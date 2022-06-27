@@ -90,7 +90,6 @@ module.exports = class BookScraperRouter extends BaseRouter {
       return nextErr(new ErrorHandler(400, data.message), req, res, next);
     }
     let specialCharacter = req.query.link.includes("?")? "?":null;
-    console.log(specialCharacter)
     writeJSONFile(dataUtils.extractFileName(req.query.link,specialCharacter),data);
     CustomResponse.sendObject(res, 200, {
       dataArr: [...data]

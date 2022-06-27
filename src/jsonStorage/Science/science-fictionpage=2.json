@@ -1,0 +1,637 @@
+[
+  {
+    "bookName": "The Handmaid's Tale",
+    "bookAuthor": "Margaret Atwood",
+    "bookPrice": "$15.95 $14.83",
+    "linkDetail": "https://bookshop.org/books/the-handmaid-s-tale-9780358120360/9780385490818",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$19.52",
+        "sale": "$20.99",
+        "PublishDate": "July 13, 2021",
+        "Publisher": "Tordotcom",
+        "Pages": "160",
+        "Dimensions": "5.43 X 8.1 X 0.69 inches | 0.52 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Becky Chambers",
+        "about": "Becky Chambers is a science fiction author based in Northern California. She is best known for her Hugo Award-winning Wayfarers series. Her books have also been nominated for the Arthur C. Clarke Award, the Locus Award, and the Women's Prize for Fiction, among others. Becky has a background in performing arts, and grew up in a family heavily involved in space science. She spends her free time playing video and tabletop games, keeping bees, and looking through her telescope. Having hopped around the world a bit, she's now back in her home state, where she lives with her wife. She hopes to see Earth from orbit one day."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250236210.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Fifth Season",
+    "bookAuthor": "N K Jemisin",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/the-fifth-season/9780316229296",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.83",
+        "sale": "$15.95",
+        "PublishDate": "March 16, 1998",
+        "Publisher": "Anchor Books",
+        "Pages": "336",
+        "Dimensions": "5.1 X 7.9 X 0.8 inches | 0.55 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Margaret Atwood",
+        "about": "Margaret Atwood, whose work has been published in more than forty-five countries, is the author of more than fifty books of fiction, poetry, critical essays, and graphic novels. In addition to The Handmaid's Tale, now an award-winning TV series, her novels include Cat's Eye, short-listed for the 1989 Booker Prize; Alias Grace, which won the Giller Prize in Canada and the Premio Mondello in Italy; The Blind Assassin, winner of the 2000 Booker Prize; Oryx and Crake, short-listed for the 2003 Man Booker Prize; The Year of the Flood, MaddAddam; and Hag-Seed. She is the recipient of numerous awards, including the Peace Prize of the German Book Trade, the Franz Kafka Prize, the PEN Center USA Lifetime Achievement Award, and the Los Angeles Times Innovator's Award. In 2019, she was made a member of the Order of the Companions of Honour for services to literature."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780385490818.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Long Way to a Small, Angry Planet",
+    "bookAuthor": "Becky Chambers",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/the-long-way-to-a-small-angry-planet/9780062444134",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "August 04, 2015",
+        "Publisher": "Orbit",
+        "Pages": "512",
+        "Dimensions": "5.4 X 8.1 X 1.4 inches | 0.9 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "N K Jemisin",
+        "about": "N. K. Jemisin is a Brooklyn author who won the Hugo Award for Best Novel for The Fifth Season, which was also a New York Times Notable Book of 2015. She previously won the Locus Award for her first novel, The Hundred Thousand Kingdoms, and her short fiction and novels have been nominated multiple times for Hugo, World Fantasy, Nebula, and RT Reviewers' Choice awards, and shortlisted for the Crawford and the James Tiptree, Jr. awards. She is a science fiction and fantasy reviewer for the New York Times, and you can find her online at nkjemisin.com."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316229296.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "A Psalm for the Wild-Built",
+    "bookAuthor": "Becky Chambers",
+    "bookPrice": "$20.99 $19.52",
+    "linkDetail": "https://bookshop.org/books/a-psalm-for-the-wild-built/9781250236210",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "July 05, 2016",
+        "Publisher": "Harper Voyager",
+        "Pages": "464",
+        "Dimensions": "5.2 X 7.9 X 1.1 inches | 0.75 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Becky Chambers",
+        "about": "Becky Chambers is a science fiction author based in Northern California. She is best known for her Hugo Award-winning Wayfarers series. Her books have also been nominated for the Arthur C. Clarke Award, the Locus Award, and the Women's Prize for Fiction, among others. Becky has a background in performing arts, and grew up in a family heavily involved in space science. She spends her free time playing video and tabletop games, keeping bees, and looking through her telescope. Having hopped around the world a bit, she's now back in her home state, where she lives with her wife. She hopes to see Earth from orbit one day."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780062444134.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Light from Uncommon Stars",
+    "bookAuthor": "Ryka Aoki",
+    "bookPrice": "$25.99 $24.17",
+    "linkDetail": "https://bookshop.org/books/light-from-uncommon-stars/9781250789068",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$24.17",
+        "sale": "$25.99",
+        "PublishDate": "September 28, 2021",
+        "Publisher": "Tor Books",
+        "Pages": "384",
+        "Dimensions": "5.78 X 8.51 X 1.25 inches | 0.98 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": [
+          "A National Bestseller",
+          "Indie Next Pick",
+          "New York Public Library Top 10 Book of 2021",
+          "A Kirkus Best Book of 2021",
+          "A Barnes & Noble Best Science Fiction Book of 2021",
+          "2022 Alex Award Winner"
+        ]
+      },
+      "Author": {
+        "name": "Ryka Aoki",
+        "about": "RYKA AOKI (she/her) is a poet, composer, teacher, and novelist whose books include He Mele a Hilo and two Lambda Award finalists, Seasonal Velocities and Why Dust Shall Never Settle Upon This Soul. Ryka's work has appeared or been recognized in publications including Vogue, Elle, Bustle, Autostraddle, PopSugar, and Buzzfeed. Her poetry was featured at the Smithsonian Asian Pacific American Center, and she was honored by the California State Senate for \"extraordinary commitment to the visibility and well-being of Transgender people.\""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250789068.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Walk the Vanished Earth",
+    "bookAuthor": "Erin Swan",
+    "bookPrice": "$27.00 $25.11",
+    "linkDetail": "https://bookshop.org/books/walk-the-vanished-earth/9780593299333",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.87",
+        "sale": "$15.99",
+        "PublishDate": "May 02, 2017",
+        "Publisher": "Tor.com",
+        "Pages": "160",
+        "Dimensions": "4.9 X 7.9 X 0.5 inches | 0.35 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "Winner: 2018 Nebula Award for Best Novella",
+          "Winner: 2018 Alex Award",
+          "Winner: 2018 Locus Award",
+          "One of the Verge's Best Books of 2017",
+          "A ",
+          "A murderous android discovers itself in "
+        ]
+      },
+      "Author": {
+        "name": "Martha Wells",
+        "about": "MARTHA WELLS has written many fantasy novels, including The Wizard Hunters, Wheel of the Infinite, the Books of the Raksura series (beginning with The Cloud Roads and ending with The Harbors of the Sun), and the Nebula-nominated The Death of the Necromancer, as well as YA fantasy novels, short stories, and non-fiction"
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780765397539.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Parable of the Sower & Parable of the Talents Boxed Set",
+    "bookAuthor": "Octavia Butler",
+    "bookPrice": "$50.00 $46.50",
+    "linkDetail": "https://bookshop.org/books/parable-of-the-sower-parable-of-the-talents-boxed-set/9781609809553",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$46.50",
+        "sale": "$50.00",
+        "PublishDate": "October 29, 2019",
+        "Publisher": "Seven Stories Press",
+        "Pages": "752",
+        "Dimensions": "6.1 X 8.7 X 2.5 inches | 2.55 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Octavia Butler Gloria Steinem Toshi Reagon",
+        "about": "A writer who darkly imagined the future we have destined for ourselves in book after book, and also one who has shown us the way toward improving on that dismal fate, Octavia E. Butler (1947-2006) is recognized among the bravest and smartest of contemporary fiction writers. A 1995 MacArthur Award winner, Butler transcended the science fiction category even as she was awarded that community's top prizes, the Nebula and Hugo Awards. She reached readers of all ages, all races, and all religious and sexual persuasions. For years the only African-American woman writing science fiction, Butler has encouraged many others to follow in her path."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781609809553.jpg?height=500&v=v2-ddc6b22224a99aea1b77195a1a19d01b"
+    }
+  },
+  {
+    "bookName": "All Systems Red",
+    "bookAuthor": "Martha Wells",
+    "bookPrice": "$15.99 $14.87",
+    "linkDetail": "https://bookshop.org/books/all-systems-red/9780765397539",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$25.11",
+        "sale": "$27.00",
+        "PublishDate": "May 31, 2022",
+        "Publisher": "Viking",
+        "Pages": "384",
+        "Dimensions": "6.35 X 9.29 X 1.3 inches | 1.3 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": [
+          " A sweeping family epic, told over seven generations, as America changes and so does its dream, Walk the Vanished Earth explores ancestry, legacy, motherhood, the trauma we inherit, and the power of connection in the face of our planet's imminent collapse.",
+          " This is a story about the end of the world--but it is also about the beginning of something entirely new. Thoughtful, warm, and wildly prescient, this work of bright imagination promises that, no matter what the future looks like, there is always room for hope.\n      "
+        ]
+      },
+      "Author": {
+        "name": "Erin Swan",
+        "about": "Erin Swan is a writer of fiction and nonfiction whose work has been published in such literary journals as Portland Review, The South Carolina Review, and Inkwell Journal. A graduate of the MFA program at the New School, she lives in Brooklyn and teaches English at a public high school in lower Manhattan. This is her first novel."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593299333.jpg?height=500&v=v2-bbc9b5fb52c1f2b3e5109e42ba17ca93"
+    }
+  },
+  {
+    "bookName": "Network Effect: A Murderbot Novel",
+    "bookAuthor": "Martha Wells",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/network-effect-a-murderbot-novel/9781250229854",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.04",
+        "sale": "$28.00",
+        "PublishDate": "July 12, 2022",
+        "Publisher": "Ballantine Books",
+        "Pages": "352",
+        "Dimensions": "6.14 X 9.29 X 1.34 inches | 1.25 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": {}
+      },
+      "Author": {
+        "name": "Blake Crouch",
+        "about": "Blake Crouch is a bestselling novelist and screenwriter. His novels include Recursion, Dark Matter, and the Wayward Pines trilogy, which was adapted into a television series for FOX. Crouch also co-created the TNT show Good Behavior, based on his Letty Dobesh novellas. He lives in Colorado."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593157534.jpg?height=500&v=v2-44106c24c157c07c8e3b55fae16dcf73"
+    }
+  },
+  {
+    "bookName": "Dune Messiah",
+    "bookAuthor": "Frank Herbert",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/dune-messiah/9780593098233",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "March 30, 2021",
+        "Publisher": "Tordotcom",
+        "Pages": "352",
+        "Dimensions": "5.4 X 8.2 X 1.1 inches | 0.65 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Martha Wells",
+        "about": "MARTHA WELLS has written many fantasy novels, including The Wizard Hunters, Wheel of the Infinite, the Books of the Raksura series (beginning with The Cloud Roads and ending with The Harbors of the Sun), and the Nebula-nominated The Death of the Necromancer, as well as YA fantasy novels, short stories, and nonfiction. Her New York Times and USA Today-bestselling Murderbot Diaries series has won the Hugo, Nebula, Locus, and Alex Awards"
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250229854.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "How High We Go in the Dark",
+    "bookAuthor": "Sequoia Nagamatsu",
+    "bookPrice": "$27.99 $26.03",
+    "linkDetail": "https://bookshop.org/books/how-high-we-go-in-the-dark/9780063072640",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.03",
+        "sale": "$27.99",
+        "PublishDate": "January 18, 2022",
+        "Publisher": "William Morrow & Company",
+        "Pages": "304",
+        "Dimensions": "5.5 X 8.3 X 1.3 inches | 0.85 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Sequoia Nagamatsu",
+        "about": "Sequoia Nagamatsu is a Japanese-American writer and managing editor of Psychopomp Magazine, an online quarterly dedicated to innovative prose. Originally from Hawaii and the San Francisco Bay Area, he holds an MFA in Creative Writing from Southern Illinois University and a BA in Anthropology from Grinnell College. His work has appeared in such publications as Conjunctions, The Southern Review, ZYZZYVA, Fairy Tale Review, and Tin House. He is the author of the award-winning short story collection Where We Go When All We Were Is Gone and teaches creative writing at St. Olaf College and the Rainier Writing Workshop Low-Residency MFA program. He currently lives in Minnesota with his wife, cat, and a robot dog named Calvino."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780063072640.jpg?height=500&v=v2-baae976dd9042750c26010dd00000000"
+    }
+  },
+  {
+    "bookName": "Upgrade",
+    "bookAuthor": "Blake Crouch",
+    "bookPrice": "$28.00 $26.04",
+    "linkDetail": "https://bookshop.org/books/upgrade-9780593157534/9780593157534",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "June 04, 2019",
+        "Publisher": "Ace Books",
+        "Pages": "352",
+        "Dimensions": "4.4 X 0.9 X 7.5 inches | 0.46 pounds",
+        "Languages": "English",
+        "Type": "Mass Market Paperbound",
+        "description": []
+      },
+      "Author": {
+        "name": "Frank Herbert",
+        "about": "Frank Herbert was the bestselling author of the Dune saga. He was born in Tacoma, Washington, and educated at the University of Washington, Seattle. He worked a wide variety of jobs--including TV cameraman, radio commentator, oyster diver, jungle survival instructor, lay analyst, creative writing teacher, reporter and editor of several West Coast newspapers--before becoming a full-time writer. In 1952, Herbert began publishing science fiction with \"Looking for Something?\" in Startling Stories. But his emergence as a writer of major stature did not occur until 1965, with the publication of Dune. Dune Messiah, Children of Dune, God Emperor of Dune, Heretics of Dune, and Chapterhouse: Dune followed, completing the saga that the Chicago Tribune would call \"one of the monuments of modern science fiction.\" Herbert was also the author of some twenty other books, including The White Plague, The Dosadi Experiment, and Destination: Void. He died in 1986."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593098233.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Dune",
+    "bookAuthor": "Frank Herbert",
+    "bookPrice": "$10.99 $10.22",
+    "linkDetail": "https://bookshop.org/books/dune-9780441005901/9780441172719",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.04",
+        "sale": "$28.00",
+        "PublishDate": "July 19, 2022",
+        "Publisher": "Del Rey Books",
+        "Pages": "320",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Silvia Moreno-Garcia",
+        "about": "Silvia Moreno-Garcia is the author of the novels Velvet Was the Night, Mexican Gothic, Gods of Jade and Shadow, and a bunch of other books. She has also edited several anthologies, including the World Fantasy Award-winning She Walks in Shadows (a.k.a. Cthulhu's Daughters). She has been nominated for the Locus Award for her work as an editor and has won the British Fantasy Award and the Locus Award for her work as a novelist."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593355336.jpg?height=500&v=v2-3d007b6de8e936aff5180a57f2cb00cf"
+    }
+  },
+  {
+    "bookName": "Kindred",
+    "bookAuthor": "Octavia E. Butler",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/kindred-9780807083697/9780807083697",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$10.22",
+        "sale": "$10.99",
+        "PublishDate": "September 01, 1990",
+        "Publisher": "Ace Books",
+        "Pages": "535",
+        "Dimensions": "4.2 X 7.5 X 2.1 inches | 1.0 pounds",
+        "Languages": "English",
+        "Type": "Mass Market Paperbound",
+        "description": {}
+      },
+      "Author": {
+        "name": "Frank Herbert",
+        "about": "Frank Herbert is the bestselling author of the Dune saga. He was born in Tacoma, Washington, and educated at the University of Washington, Seattle. He worked a wide variety of jobs--including TV cameraman, radio commentator, oyster diver, jungle survival instructor, lay analyst, creative writing teacher, reporter and editor of several West Coast newspapers--before becoming a full-time writer. In 1952, Herbert began publishing science fiction with \"Looking for Something?\" in Startling Stories. But his emergence as a writer of major stature did not occur until 1965, with the publication of Dune. Dune Messiah, Children of Dune, God Emperor of Dune, Heretics of Dune, and Chapterhouse: Dune followed, completing the saga that the Chicago Tribune would call \"one of the monuments of modern science fiction.\" Herbert is also the author of some twenty other books, including The White Plague, The Dosadi Experiment, and Destination: Void. He died in 1986."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780441172719.jpg?height=500&v=v2-8d2537de807a0e718ac94db96e80ffbb"
+    }
+  },
+  {
+    "bookName": "The Power",
+    "bookAuthor": "Naomi Alderman",
+    "bookPrice": "$16.98 $15.79",
+    "linkDetail": "https://bookshop.org/books/the-power/9780316547604",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.88",
+        "sale": "$16.00",
+        "PublishDate": "February 01, 2004",
+        "Publisher": "Beacon Press",
+        "Pages": "287",
+        "Dimensions": "5.3 X 8.01 X 0.8 inches | 0.75 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Octavia E. Butler",
+        "about": "Octavia E. Butler (1947-2006) was the author of many novels, including Dawn, Wild Seed, andParable of the Sower. She was the recipient of a MacArthur Award and a Nebula Award, and she twice won the Hugo Award."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780807083697.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Daughter of Doctor Moreau",
+    "bookAuthor": "Silvia Moreno-Garcia",
+    "bookPrice": "$28.00 $26.04",
+    "linkDetail": "https://bookshop.org/books/the-daughter-of-doctor-moreau/9780593355336",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.79",
+        "sale": "$16.98",
+        "PublishDate": "January 08, 2019",
+        "Publisher": "Back Bay Books",
+        "Pages": "400",
+        "Dimensions": "5.5 X 8.1 X 1.1 inches | 0.75 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Naomi Alderman",
+        "about": "Naomi Alderman is the recipient of the 2017 Baileys Women's Prize for Fiction for The Power. She is also the author of The Liars' Gospel and Disobedience, which won the Orange Prize for New Writers, has been published in ten languages, and has been made into a film by Rachel Weisz. Alderman was selected for Granta's once-a-decade list of Best of Young British Novelists and was chosen by Margaret Atwood as part of the Rolex Mentor and Protégé Arts Initiative. She is the cocreator and lead writer of the bestselling smartphone audio adventure app Zombies, Run! She contributes regularly to The Guardian and presents Science Stories on BBC Radio 4. She lives in London."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316547604.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Einstein's Dreams",
+    "bookAuthor": "Alan Lightman",
+    "bookPrice": "$15.95 $14.83",
+    "linkDetail": "https://bookshop.org/books/einstein-s-dreams-9781400077809/9781400077809",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.72",
+        "sale": "$17.98",
+        "PublishDate": "September 05, 2017",
+        "Publisher": "Tor Books",
+        "Pages": "624",
+        "Dimensions": "6.1 X 9.1 X 1.8 inches | 1.54 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "The Three-Body Problem Series",
+          "To Hold Up The Sky"
+        ]
+      },
+      "Author": {
+        "name": "Cixin Liu Ken Liu",
+        "about": "CIXIN LIU is a prolific and popular science fiction writer in the People's Republic of China. Liu is a winner of the Hugo Award and a multiple winner of the Galaxy Award (the Chinese Hugo) and the Xing Yun Award (the Chinese Nebula). He lives with his family in Yangquan, Shanxi. KEN LIU (translator) translated the Hugo-winning The Three-Body Problem and edited Invisible Planets, the first English-language anthology of Chinese SF from the 21st century. A winner of the Nebula, Hugo, and World Fantasy awards for his own original fiction, he is the author of the Dandelion Dynasty series of silkpunk epic fantasy novels (The Grace of Kings and The Wall of Storms) as well as The Paper Menagerie and Other Stories, a collection."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780765386632.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Anomaly",
+    "bookAuthor": "Hervé Le Tellier",
+    "bookPrice": "$16.99 $15.80",
+    "linkDetail": "https://bookshop.org/books/the-anomaly-9781635421699/9781635421699",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.80",
+        "sale": "$16.99",
+        "PublishDate": "November 23, 2021",
+        "Publisher": "Other Press (NY)",
+        "Pages": "400",
+        "Dimensions": "5.2 X 7.8 X 1.1 inches | 0.9 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          " Blake, a respectable family man who works as a contract killer.",
+          " Slimboy, a Nigerian pop star who uses his womanizing image to hide that he's gay.",
+          " Joanna, a Black American lawyer pressured to play the good old boys' game to succeed with her Big Pharma client.",
+          " Victor Miesel, a critically acclaimed yet largely obscure writer suddenly on the precipice of global fame.",
+          " About to start their descent to JFK, they hit a shockingly violent patch of turbulence, emerging on the other side to a reality both perfectly familiar and utterly strange. As it charts the fallout of this logic-defying event, ",
+          " In Hervé Le Tellier's most ambitious work yet, high literature follows the lead of a bingeable Netflix series, drawing on the best of genre fiction from \"chick lit\" to mystery, while also playfully critiquing their hallmarks. An ingenious, timely variation on the doppelgänger theme, it taps into the parts of ourselves that elude us most.\n      "
+        ]
+      },
+      "Author": {
+        "name": "Hervé Le Tellier Adriana Hunter",
+        "about": "Hervé Le Tellier is a writer, journalist, mathematician, food critic, and teacher. He has been a member of the Oulipo group since 1992 and one of the \"papous\" of the famous France Culture radio show. He has published numerous books of stories, essays, memoir, and novels, including the Goncourt Prize-winning The Anomaly, which has sold more than one million copies worldwide, All Happy Families, Electrico W, and Enough About Love. Adriana Hunter studied French and Drama at the University of London. She has translated more than ninety books, including Véronique Olmi's Bakhita and Hervé Le Tellier's Eléctrico W, winner of the French-American Foundation's 2013 Translation Prize in Fiction. She lives in Kent, England."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781635421699.jpg?height=500&v=v2-73c752e84d1cf66ee79238005fc7ad24"
+    }
+  },
+  {
+    "bookName": "Severance",
+    "bookAuthor": "Ling Ma",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/severance-9781250214997/9781250214997",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.83",
+        "sale": "$15.95",
+        "PublishDate": "November 09, 2004",
+        "Publisher": "Vintage",
+        "Pages": "144",
+        "Dimensions": "5.1 X 7.9 X 0.5 inches | 0.25 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Alan Lightman",
+        "about": "ALAN LIGHTMAN is the author of six novels, including Einstein's Dreams, which was an international bestseller, and The Diagnosis, which was a finalist for the National Book Award. He is also the author of three collections of essays and several books on science. His work has appeared in The Atlantic, Granta, Harper's, The New Yorker, The New York Review of Books, and Nature, among other publications. Since beginning his career as a theoretical physicist, Lightman has taught at Harvard and at MIT, where he was the first person to receive a dual faculty appointment in science and in the humanities. He lives in the Boston area."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781400077809.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Death's End",
+    "bookAuthor": "Cixin Liu",
+    "bookPrice": "$17.98 $16.72",
+    "linkDetail": "https://bookshop.org/books/death-s-end/9780765386632",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.81",
+        "sale": "$17.00",
+        "PublishDate": "May 07, 2019",
+        "Publisher": "Picador USA",
+        "Pages": "304",
+        "Dimensions": "5.4 X 8.2 X 0.8 inches | 0.56 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Ling Ma",
+        "about": "Ling Ma was born in Sanming, China, and grew up in Utah, Nebraska, and Kansas. She attended the University of Chicago and received an MFA from Cornell University. Prior to graduate school she worked as a journalist and an editor. Her writing has appeared in Granta, VICE, Playboy, Chicago Reader, Ninth Letter, and other publications. A chapter of Severance received the 2015 Graywolf SLS Prize. She lives in Chicago."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250214997.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "An Unkindness of Ghosts",
+    "bookAuthor": "Rivers Solomon",
+    "bookPrice": "$15.95 $14.83",
+    "linkDetail": "https://bookshop.org/books/an-unkindness-of-ghosts/9781617755880",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.72",
+        "sale": "$17.98",
+        "PublishDate": "August 16, 2016",
+        "Publisher": "Tor Books",
+        "Pages": "528",
+        "Dimensions": "6.1 X 9.2 X 1.5 inches | 1.2 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "To Hold Up The Sky"
+        ]
+      },
+      "Author": {
+        "name": "Cixin Liu Joel Martinsen",
+        "about": "CIXIN LIU is a prolific and popular science fiction writer in the People's Republic of China. Liu is a winner of the Hugo Award and a multiple winner of the Galaxy Award (the Chinese Hugo) and the Xing Yun Award (the Chinese Nebula). He lives with his family in Yangquan, Shanxi. JOEL MARTINSEN (translator) is research director for a media intelligence company. His translations have appeared in Words Without Borders, Chutzpah!, and Pathlight. He lives in Beijing."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780765386694.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "X",
+    "bookAuthor": "Davey Davis",
+    "bookPrice": "$16.95 $15.76",
+    "linkDetail": "https://bookshop.org/books/x-9781646220939/9781646220939",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.83",
+        "sale": "$15.95",
+        "PublishDate": "October 03, 2017",
+        "Publisher": "Akashic Books",
+        "Pages": "340",
+        "Dimensions": "5.2 X 1.1 X 8.2 inches | 0.75 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "--",
+          "--",
+          "--",
+          "--",
+          "--"
+        ]
+      },
+      "Author": {
+        "name": "Rivers Solomon",
+        "about": "Rivers Solomon graduated from Stanford University with a degree in comparative studies in race and ethnicity and holds an MFA in fiction writing from the Michener Center for Writers. Though originally from the United States, they currently live in Cambridge, England, with their family. An Unkindness of Ghosts is their debut."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781617755880.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Obelisk Gate",
+    "bookAuthor": "N K Jemisin",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/the-obelisk-gate/9780316229265",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "August 16, 2016",
+        "Publisher": "Orbit",
+        "Pages": "448",
+        "Dimensions": "5.7 X 8.1 X 1.3 inches | 0.85 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "N K Jemisin",
+        "about": "N. K. Jemisin is a Brooklyn author who won the Hugo Award for Best Novel for The Fifth Season, which was also a New York Times Notable Book of 2015. She previously won the Locus Award for her first novel, The Hundred Thousand Kingdoms, and her short fiction and novels have been nominated multiple times for Hugo, World Fantasy, Nebula, and RT Reviewers' Choice awards, and shortlisted for the Crawford and the James Tiptree, Jr. awards. She is a science fiction and fantasy reviewer for the New York Times, and you can find her online at nkjemisin.com."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316229265.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Dark Forest",
+    "bookAuthor": "Cixin Liu",
+    "bookPrice": "$17.98 $16.72",
+    "linkDetail": "https://bookshop.org/books/the-dark-forest-9781427273321/9780765386694",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.76",
+        "sale": "$16.95",
+        "PublishDate": "June 28, 2022",
+        "Publisher": "Catapult",
+        "Pages": "288",
+        "Dimensions": "5.5 X 8.2 X 0.9 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Davey Davis",
+        "about": "Davey Davis's first book, the earthquake room, was released by TigerBee Press in 2017. They write a weekly newsletter and mutual aid fundraiser about art, culture, sexuality, and people named David at itsdavid.substack.com. They live in Brooklyn."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646220939.jpg?height=500&v=v2-225b6ea55e16f52b1bf347f4c1957e89"
+    }
+  },
+  {
+    "bookName": "The Employees: A Workplace Novel of the 22nd Century",
+    "bookAuthor": "Olga Ravn",
+    "bookPrice": "$19.95 $18.55",
+    "linkDetail": "https://bookshop.org/books/the-employees-a-workplace-novel-of-the-22nd-century-9781771667609/9780811231350",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$18.55",
+        "sale": "$19.95",
+        "PublishDate": "February 01, 2022",
+        "Publisher": "New Directions Publishing Corporation",
+        "Pages": "144",
+        "Dimensions": "4.94 X 7.62 X 0.68 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Olga Ravn Martin Aitken",
+        "about": "Olga Ravn (born 1986) is a Danish novelist and poet. Her debut poetry collection I Devour Myself Like Heather appeared to critical acclaim in 2012. Alongside Johanne Lykke Holm she ran the feminist performance group and writing school Hekseskolen from 2015 to 2019. In collaboration with Danish publisher Gyldendal she edited a selection of Tove Ditlevsen's texts and books that relaunched Ditlevsen readership worldwide.Martin Aitken has a doctorate in linguistics and has translated hundreds of articles, poems, and novels. Born in England, he lives in Copenhagen, Denmark."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780811231350.jpg?height=500&v=v2-0a9b8b0f9df22286b6ebd56b0a5bb4b4"
+    }
+  }
+]
