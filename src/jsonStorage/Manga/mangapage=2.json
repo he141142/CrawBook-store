@@ -1,48 +1,26 @@
 [
   {
-    "bookName": "Jujutsu Kaisen, Vol. 16: Volume 16",
-    "bookAuthor": "Gege Akutami",
-    "bookPrice": "$9.99 $9.29",
-    "linkDetail": "https://bookshop.org/books/jujutsu-kaisen-vol-16-volume-16/9781974728985",
-    "bookDetail": {
-      "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
-        "description": []
-      },
-      "Author": {
-        "name": "",
-        "about": ""
-      }
-    }
-  },
-  {
     "bookName": "Frieren: Beyond Journey's End, Vol. 1: Volume 1",
     "bookAuthor": "Kanehito Yamada and Tsukasa Abe",
     "bookPrice": "$9.99 $9.29",
     "linkDetail": "https://bookshop.org/books/frieren-beyond-journey-s-end-vol-1-volume-1/9781974725762",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "November 09, 2021",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "5.0 X 7.6 X 0.7 inches | 0.45 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
+        "name": "Kanehito Yamada Tsukasa Abe",
         "about": ""
-      }
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974725762.jpg?height=500&v=v2"
     }
   },
   {
@@ -52,20 +30,21 @@
     "linkDetail": "https://bookshop.org/books/dekoboko-sugar-days/9781427862280",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "February 18, 2020",
+        "Publisher": "Love X Love",
+        "Pages": "256",
+        "Dimensions": "4.9 X 7.4 X 0.9 inches | 0.54 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Atsuko Yusen",
+        "about": "A Japanese manga author, Atsuko Yusen is known for her Amazon ranked hit titles Dekoboko Sugar Days, Dekoboko Bittersweet Days, and This Wonderful Season With You."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781427862280.jpg?height=500&v=v2-bf6c937cd55311b876e9ba791f082c91"
     }
   },
   {
@@ -75,25 +54,26 @@
     "linkDetail": "https://bookshop.org/books/witch-hat-atelier-2/9781632368041",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "June 25, 2019",
+        "Publisher": "Kodansha Comics",
+        "Pages": "192",
+        "Dimensions": "5.7 X 8.1 X 0.6 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
+        "name": "Kamome Shirahama",
         "about": ""
-      }
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781632368041.jpg?height=500&v=v2"
     }
   },
   {
     "bookName": "The Savior's Book Café Story in Another World (Manga) Vol. 1",
-    "bookAuthor": "Kyouka Izumi, Oumiya, et al.",
+    "bookAuthor": "Oumiya, Kyouka Izumi, et al.",
     "bookPrice": "$12.99 $12.08",
     "linkDetail": "https://bookshop.org/books/the-savior-s-book-cafe-story-in-another-world-manga-vol-1/9781648276552",
     "bookDetail": {
@@ -146,20 +126,21 @@
     "linkDetail": "https://bookshop.org/books/frieren-beyond-journey-s-end-vol-4-volume-4/9781974727254",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "May 17, 2022",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "5.2 X 7.5 X 0.9 inches | 0.35 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
+        "name": "Kanehito Yamada Tsukasa Abe",
         "about": ""
-      }
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974727254.jpg?height=500&v=v2-a366271f652e2e2da64470d5d9215ddf"
     }
   },
   {
@@ -169,20 +150,21 @@
     "linkDetail": "https://bookshop.org/books/witch-hat-atelier-6/9781646510108",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "September 15, 2020",
+        "Publisher": "Kodansha Comics",
+        "Pages": "176",
+        "Dimensions": "5.7 X 8.0 X 0.7 inches | 0.45 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Kamome Shirahama",
+        "about": "Kamome Shirahama is best known in the United States for her comics cover art at DC and Marvel, including such titles as Star Wars: Doctor Aphra and Batgirl and the Birds of Prey. Witch Hat Atelier is her first manga to be released in English."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646510108.jpg?height=500&v=v2"
     }
   },
   {
@@ -192,20 +174,21 @@
     "linkDetail": "https://bookshop.org/books/witch-hat-atelier-5/9781632369291",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "March 17, 2020",
+        "Publisher": "Kodansha Comics",
+        "Pages": "192",
+        "Dimensions": "5.9 X 8.2 X 0.6 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Kamome Shirahama",
+        "about": "Kamome Shirahama is best known in the United States for her comics cover art at DC and Marvel, including such titles as Star Wars: Doctor Aphra and Batgirl and the Birds of Prey. Witch Hat Atelier is her first manga to be released in English."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781632369291.jpg?height=500&v=v2"
     }
   },
   {
@@ -239,20 +222,21 @@
     "linkDetail": "https://bookshop.org/books/witch-hat-atelier-7/9781646510788",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "February 02, 2021",
+        "Publisher": "Kodansha Comics",
+        "Pages": "176",
+        "Dimensions": "4.6 X 8.1 X 0.6 inches | 0.44 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Kamone Shirahama",
+        "about": "Kamome Shirahama is best known in the United States for her comics cover art at DC and Marvel, including such titles as Star Wars: Doctor Aphra and Batgirl and the Birds of Prey. Witch Hat Atelier is her first manga to be released in English."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646510788.jpg?height=500&v=v2"
     }
   },
   {
@@ -262,20 +246,21 @@
     "linkDetail": "https://bookshop.org/books/gender-a-graphic-guide/9781785784521",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$18.55",
+        "sale": "$19.95",
+        "PublishDate": "January 14, 2020",
+        "Publisher": "Icon Books",
+        "Pages": "176",
+        "Dimensions": "7.0 X 10.3 X 0.5 inches | 1.1 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Meg-John Barker Jules Scheele",
+        "about": "Meg-John Barker is the author of a number of popular books on sex, gender and relationships, drawing on their years of academic research and therapeutic practice in these areas. Jules Scheele is an illustrator, graphic facilitator and comic book artist. Scheele runs One Beat Zines, a feminist zine collective and distributor."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781785784521.jpg?height=500&v=v2"
     }
   },
   {
@@ -285,20 +270,21 @@
     "linkDetail": "https://bookshop.org/books/the-savior-s-book-cafe-story-in-another-world-manga-vol-2/9781638580386",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "April 19, 2022",
+        "Publisher": "Seven Seas",
+        "Pages": "160",
+        "Dimensions": "4.8 X 6.8 X 0.6 inches | 0.3 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Kyouka Izumi Oumiya Reiko Sakurada",
+        "about": "Kyouka Izumi is a Japanese writer best known for The Savior's Book Cafe Story in Another World and Isekai Idol. Oumiya is a Japanese writer best known for The Savior's Book Cafe Story in Another World and Isekai Idol. Reiko Sakurada is a Japanese manga artist best known for the art in The Savior's Book Cafe Story in Another World (Manga)."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781638580386.jpg?height=500&v=v2-91c6db2d3353d3af39c9dda4468aa33c"
     }
   },
   {
@@ -328,26 +314,51 @@
     }
   },
   {
+    "bookName": "Delicious in Dungeon, Vol. 5",
+    "bookAuthor": "Ryoko Kui",
+    "bookPrice": "$15.00 $13.95",
+    "linkDetail": "https://bookshop.org/books/delicious-in-dungeon-vol-5/9781975326449",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.95",
+        "sale": "$15.00",
+        "PublishDate": "May 22, 2018",
+        "Publisher": "Yen Press",
+        "Pages": "200",
+        "Dimensions": "5.7 X 8.2 X 0.8 inches | 0.55 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Ryoko Kui",
+        "about": "Ryoko Kui is the author of Delicious in Dungeon."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781975326449.jpg?height=500&v=v2"
+    }
+  },
+  {
     "bookName": "My Brother's Husband, Volumes 1 & 2",
     "bookAuthor": "Gengoroh Tagame",
     "bookPrice": "$32.00 $29.76",
     "linkDetail": "https://bookshop.org/books/my-brother-s-husband-volumes-1-2/9780375715181",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
-        "description": []
+        "price": "$29.76",
+        "sale": "$32.00",
+        "PublishDate": "February 11, 2020",
+        "Publisher": "Pantheon Books",
+        "Pages": "704",
+        "Dimensions": "6.9 X 9.8 X 1.7 inches | 2.7 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Gengoroh Tagame Anne Ishii",
+        "about": "GENGOROH TAGAME was born in 1964 and lives in Tokyo. After graduating from Tama University of Art, Tagame worked as an art director while writing manga and prose fiction, contributing illustrations for various magazines. In 1994 he cofounded the epochal G-Men Magazine and by 1996 he was working full-time as an openly gay artist. He is the author of dozens of graphic novels and stories which have been translated into English, French, Italian, and Korean. His artwork has been exhibited in galleries across Europe and America. My Brother's Husband marks his first all-ages title, and earned him the Japan Media Arts Award for Outstanding Work of Manga from the Agency of Cultural Affairs. In 2018 it received the Eisner Award for Best U.S. Edition on International Material--Asia."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780375715181.jpg?height=500&v=v2"
     }
   },
   {
@@ -405,20 +416,21 @@
     "linkDetail": "https://bookshop.org/books/demon-slayer-complete-box-set-includes-volumes-1-23-with-premium-9781974725953/9781974725953",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$185.99",
+        "sale": "$199.99",
+        "PublishDate": "November 09, 2021",
+        "Publisher": "Viz Media",
+        "Pages": "4496",
+        "Dimensions": "8.9 X 15.4 X 5.3 inches | 9.66 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
+        "name": "Koyoharu Gotouge",
         "about": ""
-      }
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974725953.jpg?height=500&v=v2-ca4d4a2ce7257fcf9f0fa0189d9cfc36"
     }
   },
   {
@@ -452,20 +464,21 @@
     "linkDetail": "https://bookshop.org/books/chainsaw-man-vol-5-volume-5/9781974719228",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "June 01, 2021",
+        "Publisher": "Viz Media",
+        "Pages": "200",
+        "Dimensions": "4.9 X 7.4 X 0.7 inches | 0.4 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Tatsuki Fujimoto",
+        "about": "Tatsuki Fujimoto won Honorable Mention in the November 2013 Shueisha Crown Newcomers' Awards for his debut one-shot story Love is Blind. His first series Fire Punch ran for eight volumes. Chainsaw Man began serialization in 2018 in Weekly Shonen Jump."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974719228.jpg?height=500&v=v2"
     }
   },
   {
@@ -499,20 +512,21 @@
     "linkDetail": "https://bookshop.org/books/chainsaw-man-vol-9-volume-9/9781974724048",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "February 01, 2022",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "3.7 X 8.82 X 0.64 inches | 0.38 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Tatsuki Fujimoto",
+        "about": "Tatsuki Fujimoto won Honorable Mention in the November 2013 Shueisha Crown Newcomers' Awards for his debut one-shot story Love is Blind. His first series Fire Punch ran for eight volumes. Chainsaw Man began serialization in 2018 in Weekly Shonen Jump."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974724048.jpg?height=500&v=v2"
     }
   },
   {
@@ -522,20 +536,21 @@
     "linkDetail": "https://bookshop.org/books/chainsaw-man-vol-10-volume-10/9781974725359",
     "bookDetail": {
       "bookDetail": {
-        "price": "",
-        "sale": "",
-        "PublishDate": "",
-        "Publisher": "",
-        "Pages": "",
-        "Dimensions": "",
-        "Languages": "",
-        "Type": "",
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "April 05, 2022",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "5.0 X 7.4 X 0.8 inches | 0.4 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
         "description": []
       },
       "Author": {
-        "name": "",
-        "about": ""
-      }
+        "name": "Tatsuki Fujimoto",
+        "about": "Tatsuki Fujimoto won Honorable Mention in the November 2013 Shueisha Crown Newcomers' Awards for his debut one-shot story Love is Blind. His first series Fire Punch ran for eight volumes. Chainsaw Man began serialization in 2018 in Weekly Shonen Jump."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974725359.jpg?height=500&v=v2"
     }
   }
 ]

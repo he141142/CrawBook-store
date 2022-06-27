@@ -32,17 +32,23 @@ module.exports = class queue {
   sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
   enqueue = async (task, ...params) => {
-    this.tasks.push({task, params}); // Add task to the list
-    if (this.running >= this.concurrency) {
-      return; // Do not run if we are above the concurrency limit
+    try {
+      this.tasks.push({task, params}); // Add task to the list
+      if (this.running >= this.concurrency) {
+        return; // Do not run if we are above the concurrency limit
+      }
+
+      this.running += 1; // "Block" one concurrent task
+      while (this.tasks.length > 0) {
+        const {task, params} = this.tasks.shift(); // Take task from the list
+        await task(...params); // Execute task with the provided params
+      }
+      this.running -= 1; // Release a spot
+    }catch (e) {
+      console.log("Error in enqueue:");
+      console.log(e)
     }
 
-    this.running += 1; // "Block" one concurrent task
-    while (this.tasks.length > 0) {
-      const {task, params} = this.tasks.shift(); // Take task from the list
-      await task(...params); // Execute task with the provided params
-    }
-    this.running -= 1; // Release a spot
   }
 
   crawlTask = async (url,task,...param) => {

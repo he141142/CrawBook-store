@@ -87,14 +87,62 @@ class DataUtils {
     return rel + ".json";
   }
 
+  detachArrayByCurrency = (array = [], concurrency = 4) => {
+    let newArr = [];
+    // let concurrency = realConcurrency - 1;
+    if (concurrency >= array.length) {
+      concurrency = array.length;
+    }
+    for (let i = 0; i <= array.length - 1;
+        i = (i + concurrency) >= array.length ? i + (array.length - i) : i
+            + concurrency
+    ) {
+      let subArray = [];
+      let decision = (i + concurrency) >= array.length ? i + (array.length - i)
+          : i
+          + concurrency;
+      for (let j = i; j < decision; ++j) {
+        subArray.push(array[j]);
+      }
+      newArr.push(subArray);
+    }
+    return newArr;
+  }
 
+  checkArrayDetach = () => {
+    let arr = [1, 4, 5, 6, 7, 3, 4, 5, 6, 7];
+    let arr2 = [1, 4, 5, 6, 7, 3, 4, 5, 6];
+    let concurrency = [3,10,4,5];
+    let arraytestCase = [[1, 4, 5, 6, 7, 3, 4, 5, 6, 7],[1, 4, 5, 6, 7, 3, 4, 5, 6],[1, 4, 5, 6, 7, 3, 4, 5,4],arr];
+    for (let i=0;i<4;i++){
+      this.testCase().process(arraytestCase[i],concurrency[i],"Test case "+i+":");
+    }
 
+  }
 
+  testCase = () => {
+    return {
+      process: (arr, concurrency,msg) => {
+        console.log("\n\n\n")
+        console.log(msg);
+        console.log(`Concurrency: ${concurrency}
+                     `)
+        console.log("Array default:")
+        console.log(arr)
+        console.log("Array after detached:")
+        console.log(this.detachArrayByCurrency(
+            arr, concurrency
+        ))
+      }
+    }
+  }
 
 }
 
 module.exports = new DataUtils();
 
+let d = new DataUtils();
+d.checkArrayDetach();
 // console.log(new DataUtils().isNumber(5))
 // console.log(new DataUtils().identityNumberChecker("0215632d0090"));
 // console.log(new DataUtils().isAlphaOnly("sad asd lk"))

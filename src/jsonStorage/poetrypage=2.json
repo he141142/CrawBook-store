@@ -1,1 +1,152 @@
-[{"bookName":"You Don't Have to Go to Mars for Love","bookAuthor":"Yona Harvey","bookPrice":"$16.95 $15.76","linkDetail":"https://bookshop.org/books/you-don-t-have-to-go-to-mars-for-love/9781945588563"},{"bookName":"Blood Dazzler","bookAuthor":"Patricia Smith","bookPrice":"$16.00 $14.88","linkDetail":"https://bookshop.org/books/blood-dazzler/9781566892186"},{"bookName":"Poeheartic: Rhythms of Love","bookAuthor":"Samuel Kolawole Adebayo","bookPrice":"$9.99","linkDetail":"https://bookshop.org/books/poeheartic-rhythms-of-love/9789789591831"},{"bookName":"Catalog of Unabashed Gratitude","bookAuthor":"Ross Gay","bookPrice":"$17.00 $15.81","linkDetail":"https://bookshop.org/books/catalog-of-unabashed-gratitude/9780822963318"},{"bookName":"The Carrying: Poems","bookAuthor":"Ada Limón","bookPrice":"$22.00 $20.46","linkDetail":"https://bookshop.org/books/the-carrying-poems/9781571315120"},{"bookName":"Inward","bookAuthor":"Yung Pueblo","bookPrice":"$16.99 $15.80","linkDetail":"https://bookshop.org/books/inward-9781449495756/9781449495756"},{"bookName":"Crush","bookAuthor":"Richard Siken","bookPrice":"$18.00 $16.74","linkDetail":"https://bookshop.org/books/crush-9780300246308/9780300107890"},{"bookName":"Still Life","bookAuthor":"Jay Hopler","bookPrice":"$18.00 $16.74","linkDetail":"https://bookshop.org/books/still-life-9781952119378/9781952119378"},{"bookName":"Love and Other Poems","bookAuthor":"Alex Dimitrov","bookPrice":"$17.00 $15.81","linkDetail":"https://bookshop.org/books/love-and-other-poems-9781556595998/9781556595998"},{"bookName":"Postcolonial Love Poem: Poems","bookAuthor":"Natalie Diaz","bookPrice":"$16.00 $14.88","linkDetail":"https://bookshop.org/books/postcolonial-love-poem-poems/9781644450147"},{"bookName":"The Selected Works of Audre Lorde","bookAuthor":"Audre Lorde","bookPrice":"$16.95 $15.76","linkDetail":"https://bookshop.org/books/the-selected-works-of-audre-lorde/9781324004615"},{"bookName":"Dog Songs: Poems","bookAuthor":"Mary Oliver","bookPrice":"$16.00 $14.88","linkDetail":"https://bookshop.org/books/dog-songs-poems/9780143125839"},{"bookName":"A Poetry Handbook","bookAuthor":"Mary Oliver","bookPrice":"$14.99 $13.94","linkDetail":"https://bookshop.org/books/a-poetry-handbook/9780156724005"},{"bookName":"Content Warning: Everything","bookAuthor":"Akwaeke Emezi","bookPrice":"$16.00 $14.88","linkDetail":"https://bookshop.org/books/content-warning-everything/9781556596292"},{"bookName":"The Poetry of Impermanence, Mindfulness, and Joy","bookAuthor":"","bookPrice":"$16.95 $15.76","linkDetail":"https://bookshop.org/books/the-poetry-of-impermanence-mindfulness-and-joy/9781614293316"},{"bookName":"Diaries of a Terrorist","bookAuthor":"Christopher Soto","bookPrice":"$17.00 $15.81","linkDetail":"https://bookshop.org/books/diaries-of-a-terrorist/9781556596346"},{"bookName":"Might Kindred","bookAuthor":"Mónica Gomery","bookPrice":"$17.95 $16.69","linkDetail":"https://bookshop.org/books/might-kindred/9781496232397"},{"bookName":"Autobiography of Red: A Novel in Verse","bookAuthor":"Anne Carson","bookPrice":"$18.00 $16.74","linkDetail":"https://bookshop.org/books/autobiography-of-red-a-novel-in-verse/9780375701290"},{"bookName":"The Collected Poems of Audre Lorde","bookAuthor":"Audre Lorde","bookPrice":"$21.95 $20.41","linkDetail":"https://bookshop.org/books/the-collected-poems-of-audre-lorde/9780393319729"},{"bookName":"Obit","bookAuthor":"Victoria Chang","bookPrice":"$17.00 $15.81","linkDetail":"https://bookshop.org/books/obit-9781556595745/9781556595745"},{"bookName":"Lunch Poems","bookAuthor":"Frank O'Hara","bookPrice":"$8.95 $8.32","linkDetail":"https://bookshop.org/books/lunch-poems/9780872860353"},{"bookName":"War of the Foxes","bookAuthor":"Richard Siken","bookPrice":"$17.00 $15.81","linkDetail":"https://bookshop.org/books/war-of-the-foxes/9781556594779"},{"bookName":"Against Heaven: Poems","bookAuthor":"Kemi Alabi","bookPrice":"$16.00 $14.88","linkDetail":"https://bookshop.org/books/against-heaven-poems/9781644450826"},{"bookName":"Field Theories","bookAuthor":"Samiya Bashir","bookPrice":"$15.95 $14.83","linkDetail":"https://bookshop.org/books/field-theories/9781937658632"},{"bookName":"If the Girl Never Learns: Poems","bookAuthor":"Sue William Silverman","bookPrice":"$14.95 $13.90","linkDetail":"https://bookshop.org/books/if-the-girl-never-learns-poems-9781941799642/9781941799642"}]
+[
+  {
+    "bookName": "You Don't Have to Go to Mars for Love",
+    "bookAuthor": "Yona Harvey",
+    "bookPrice": "$16.95 $15.76",
+    "linkDetail": "https://bookshop.org/books/you-don-t-have-to-go-to-mars-for-love/9781945588563"
+  },
+  {
+    "bookName": "Blood Dazzler",
+    "bookAuthor": "Patricia Smith",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/blood-dazzler/9781566892186"
+  },
+  {
+    "bookName": "Poeheartic: Rhythms of Love",
+    "bookAuthor": "Samuel Kolawole Adebayo",
+    "bookPrice": "$9.99",
+    "linkDetail": "https://bookshop.org/books/poeheartic-rhythms-of-love/9789789591831"
+  },
+  {
+    "bookName": "Catalog of Unabashed Gratitude",
+    "bookAuthor": "Ross Gay",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/catalog-of-unabashed-gratitude/9780822963318"
+  },
+  {
+    "bookName": "The Carrying: Poems",
+    "bookAuthor": "Ada Limón",
+    "bookPrice": "$22.00 $20.46",
+    "linkDetail": "https://bookshop.org/books/the-carrying-poems/9781571315120"
+  },
+  {
+    "bookName": "Inward",
+    "bookAuthor": "Yung Pueblo",
+    "bookPrice": "$16.99 $15.80",
+    "linkDetail": "https://bookshop.org/books/inward-9781449495756/9781449495756"
+  },
+  {
+    "bookName": "Crush",
+    "bookAuthor": "Richard Siken",
+    "bookPrice": "$18.00 $16.74",
+    "linkDetail": "https://bookshop.org/books/crush-9780300246308/9780300107890"
+  },
+  {
+    "bookName": "Still Life",
+    "bookAuthor": "Jay Hopler",
+    "bookPrice": "$18.00 $16.74",
+    "linkDetail": "https://bookshop.org/books/still-life-9781952119378/9781952119378"
+  },
+  {
+    "bookName": "Love and Other Poems",
+    "bookAuthor": "Alex Dimitrov",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/love-and-other-poems-9781556595998/9781556595998"
+  },
+  {
+    "bookName": "Postcolonial Love Poem: Poems",
+    "bookAuthor": "Natalie Diaz",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/postcolonial-love-poem-poems/9781644450147"
+  },
+  {
+    "bookName": "The Selected Works of Audre Lorde",
+    "bookAuthor": "Audre Lorde",
+    "bookPrice": "$16.95 $15.76",
+    "linkDetail": "https://bookshop.org/books/the-selected-works-of-audre-lorde/9781324004615"
+  },
+  {
+    "bookName": "Dog Songs: Poems",
+    "bookAuthor": "Mary Oliver",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/dog-songs-poems/9780143125839"
+  },
+  {
+    "bookName": "A Poetry Handbook",
+    "bookAuthor": "Mary Oliver",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/a-poetry-handbook/9780156724005"
+  },
+  {
+    "bookName": "Content Warning: Everything",
+    "bookAuthor": "Akwaeke Emezi",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/content-warning-everything/9781556596292"
+  },
+  {
+    "bookName": "The Poetry of Impermanence, Mindfulness, and Joy",
+    "bookAuthor": "",
+    "bookPrice": "$16.95 $15.76",
+    "linkDetail": "https://bookshop.org/books/the-poetry-of-impermanence-mindfulness-and-joy/9781614293316"
+  },
+  {
+    "bookName": "Diaries of a Terrorist",
+    "bookAuthor": "Christopher Soto",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/diaries-of-a-terrorist/9781556596346"
+  },
+  {
+    "bookName": "Might Kindred",
+    "bookAuthor": "Mónica Gomery",
+    "bookPrice": "$17.95 $16.69",
+    "linkDetail": "https://bookshop.org/books/might-kindred/9781496232397"
+  },
+  {
+    "bookName": "Autobiography of Red: A Novel in Verse",
+    "bookAuthor": "Anne Carson",
+    "bookPrice": "$18.00 $16.74",
+    "linkDetail": "https://bookshop.org/books/autobiography-of-red-a-novel-in-verse/9780375701290"
+  },
+  {
+    "bookName": "The Collected Poems of Audre Lorde",
+    "bookAuthor": "Audre Lorde",
+    "bookPrice": "$21.95 $20.41",
+    "linkDetail": "https://bookshop.org/books/the-collected-poems-of-audre-lorde/9780393319729"
+  },
+  {
+    "bookName": "Obit",
+    "bookAuthor": "Victoria Chang",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/obit-9781556595745/9781556595745"
+  },
+  {
+    "bookName": "Lunch Poems",
+    "bookAuthor": "Frank O'Hara",
+    "bookPrice": "$8.95 $8.32",
+    "linkDetail": "https://bookshop.org/books/lunch-poems/9780872860353"
+  },
+  {
+    "bookName": "War of the Foxes",
+    "bookAuthor": "Richard Siken",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/war-of-the-foxes/9781556594779"
+  },
+  {
+    "bookName": "Against Heaven: Poems",
+    "bookAuthor": "Kemi Alabi",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/against-heaven-poems/9781644450826"
+  },
+  {
+    "bookName": "Field Theories",
+    "bookAuthor": "Samiya Bashir",
+    "bookPrice": "$15.95 $14.83",
+    "linkDetail": "https://bookshop.org/books/field-theories/9781937658632"
+  },
+  {
+    "bookName": "If the Girl Never Learns: Poems",
+    "bookAuthor": "Sue William Silverman",
+    "bookPrice": "$14.95 $13.90",
+    "linkDetail": "https://bookshop.org/books/if-the-girl-never-learns-poems-9781941799642/9781941799642"
+  }
+]

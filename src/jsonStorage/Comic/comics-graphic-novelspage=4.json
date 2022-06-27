@@ -1,0 +1,607 @@
+[
+  {
+    "bookName": "Delicious in Dungeon, Vol. 3",
+    "bookAuthor": "Ryoko Kui",
+    "bookPrice": "$15.00 $13.95",
+    "linkDetail": "https://bookshop.org/books/delicious-in-dungeon-vol-3/9780316412797",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.95",
+        "sale": "$15.00",
+        "PublishDate": "November 14, 2017",
+        "Publisher": "Yen Press",
+        "Pages": "192",
+        "Dimensions": "5.7 X 8.2 X 0.7 inches | 0.48 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Ryoko Kui",
+        "about": "Ryoko Kui is the author of Delicious in Dungeon."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316412797.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "My Life in Transition: A Super Late Bloomer Collection",
+    "bookAuthor": "Julia Kaye",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/my-life-in-transition-a-super-late-bloomer-collection/9781524860462",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "February 16, 2021",
+        "Publisher": "Andrews McMeel Publishing",
+        "Pages": "176",
+        "Dimensions": "7.9 X 6.4 X 0.6 inches | 0.84 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Julia Kaye",
+        "about": "Julia Kaye is an award-winning artist and illustrator whose webcomic Up and Out has garnered hundreds of thousands of readers and wide critical praise. Her commitment to activism has led to collaborations with non-profit organizations such as The Trevor Project and Trans Lifeline. Her work has appeared on Webtoon, GoComics, Buzzfeed, and the Disney animated show Big City Greens. Julia lives in Los Angeles."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781524860462.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Con Artists",
+    "bookAuthor": "Luke Healy",
+    "bookPrice": "$24.95 $23.20",
+    "linkDetail": "https://bookshop.org/books/the-con-artists/9781770466234",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$23.20",
+        "sale": "$24.95",
+        "PublishDate": "June 07, 2022",
+        "Publisher": "Drawn & Quarterly",
+        "Pages": "128",
+        "Dimensions": "6.26 X 8.78 X 0.85 inches | 1.22 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Luke Healy",
+        "about": "Luke Healy is graduate of Dublin City University, where he studied journalism, and The Center for Cartoon Studies where he earned an MFA in Cartooning."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781770466234.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Delicious in Dungeon World Guide: The Adventurer's Bible",
+    "bookAuthor": "Ryoko Kui",
+    "bookPrice": "$18.00 $16.74",
+    "linkDetail": "https://bookshop.org/books/delicious-in-dungeon-world-guide-the-adventurer-s-bible/9781975338664",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.74",
+        "sale": "$18.00",
+        "PublishDate": "August 23, 2022",
+        "Publisher": "Yen Press",
+        "Pages": "192",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Ryoko Kui",
+        "about": "Ryoko Kui is the author of Delicious in Dungeon."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781975338664.jpg?height=500&v=v2-ecfd86cca5e0bcac69e2cbc941d8b51a"
+    }
+  },
+  {
+    "bookName": "Witch Hat Atelier 10",
+    "bookAuthor": "Kamome Shirahama",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/witch-hat-atelier-10/9781646516186",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "November 15, 2022",
+        "Publisher": "Kodansha Comics",
+        "Pages": "",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kamome Shirahama",
+        "about": "Kamome Shirahama is best known in the United States for her comics cover art at DC and Marvel, including such titles as Star Wars: Doctor Aphra and Batgirl and the Birds of Prey. Witch Hat Atelier is her first manga to be released in English."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646516186.jpg?height=500&v=v2-6e9bc0d60f3a104fac3ed372f946c166"
+    }
+  },
+  {
+    "bookName": "Jujutsu Kaisen, Vol. 16: Volume 16",
+    "bookAuthor": "Gege Akutami",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/jujutsu-kaisen-vol-16-volume-16/9781974728985",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "June 21, 2022",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "5.04 X 7.52 X 0.62 inches | 0.39 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Gege Akutami",
+        "about": "Gege Akutami published a few short works before starting Jujutsu Kaisen, which began serialization in Weekly Shonen Jump in 2018."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974728985.jpg?height=500&v=v2-d7acf779446b651ea111a3448675d8b6"
+    }
+  },
+  {
+    "bookName": "Garfield Fat-Cat 3-Pack #9",
+    "bookAuthor": "Jim Davis",
+    "bookPrice": "$18.00 $16.74",
+    "linkDetail": "https://bookshop.org/books/garfield-fat-cat-3-pack-9/9780345526076",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.74",
+        "sale": "$18.00",
+        "PublishDate": "April 28, 2015",
+        "Publisher": "Random House Worlds",
+        "Pages": "288",
+        "Dimensions": "8.4 X 9.0 X 0.9 inches | 1.65 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Jim Davis",
+        "about": "Jim Davis was born on July 28, 1945, in Marion, Indiana. He later attended Ball State University in Muncie, Indiana, where he distinguished himself by earning one of the lowest cumulative grade point averages in the history of the university. The Garfield strip was born on June 19, 1978, syndicated in forty-one U.S. newspapers. Today it's syndicated in more than 2,100 newspapers worldwide with more than 200 million readers, leading Guinness World Records to name Garfield The Most Widely Syndicated Comic Strip in the World. Davis has had many successes with Garfield, including four Emmy Awards for Outstanding Animated Program and induction into the Licensing Hall of Fame (1998), but his most prized awards are from his peers in the National Cartoonist Society: Best Humor Strip (1981 and 1985), the Elzie Segar Award (1990), and the coveted Reuben Award (1990) for overall excellence in cartooning."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780345526076.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Fangs",
+    "bookAuthor": "Sarah Andersen",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/fangs-9781524860677/9781524860677",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "September 01, 2020",
+        "Publisher": "Andrews McMeel Publishing",
+        "Pages": "112",
+        "Dimensions": "5.5 X 7.9 X 0.7 inches | 0.75 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Sarah Andersen",
+        "about": "Sarah Andersen is a cartoonist and illustrator from New England. She is the author of the award-winning series Sarah's Scribbles, which has earned her three consecutive Goodreads Choice Awards. Her semi-autobiographical comics chronicle the continual struggles of waking up in the morning, being productive, dealing with social awkwardness, technology, and her beloved pets. Together with author Andy Weir, she also illustrated the graphic novel Cheshire Crossing, a mashup of Wizard of Oz, Peter Pan, and Alice in Wonderland. Her gothic romance, Fangs, began running online in 2020 as a serial comic strip on Tapas and will be published later this year in hardcover form. She graduated from the Maryland Institute College of Art in 2014 and currently lives in Montreal."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781524860677.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Two Heads: A Graphic Exploration of How Our Brains Work with...",
+    "bookAuthor": "Uta Frith, Chris Frith, et al.",
+    "bookPrice": "$30.00 $27.90",
+    "linkDetail": "https://bookshop.org/books/two-heads-a-graphic-exploration-of-how-our-brains-work-with-other-brains-9781501194078/9781501194078",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$27.90",
+        "sale": "$30.00",
+        "PublishDate": "April 26, 2022",
+        "Publisher": "Scribner Book Company",
+        "Pages": "352",
+        "Dimensions": "7.64 X 9.36 X 1.25 inches | 2.19 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Uta Frith Chris Frith Daniel Locke",
+        "about": "Uta Frith is Emeritus Professor of Cognitive Development at the Institute of Cognitive Neuroscience at University College London. She is a member of the Senate of the Leopoldina, the German National Academy of Sciences, and a Foreign Associate of the NAS. Uta is known for her research on autism and dyslexia and was listed in 2014 as among the 200 most eminent psychologists of the modern era. Chris Frith is Emeritus Professor of Neuropsychology at the Wellcome Centre for Human Neuroimaging at University College London, Visiting Professor at the Interacting Minds Centre, Aarhus University, and Honorary Research Fellow at the Institute of Philosophy, University of London. He is a pioneer in the application of brain imaging to the study of mental processes and in 2016, he was listed among the top 10 most influential brain scientists of the modern era by Science. Daniel Locke is an artist and graphic novelist based in Brighton, UK. Since 2013, much of his work has been informed and shaped by the discoveries of contemporary science. He's worked with Nobrow, Arts Council England, The Wellcome Trust, and The National Trust. Alex Frith has been a children's nonfiction author since 2005. Working exclusively for Usborne Publishing, he has written over fifty books covering almost any subject you can think of, from the origins of the Universe to the meaning behind world religions, from extinct animals to prototype AIs."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781501194078.jpg?height=500&v=v2-3aad2a828f249b1ce8504714a8fa9119"
+    }
+  },
+  {
+    "bookName": "Strange Planet",
+    "bookAuthor": "Nathan W. Pyle",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/strange-planet/9780062970701",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "November 19, 2019",
+        "Publisher": "Morrow Gift",
+        "Pages": "144",
+        "Dimensions": "6.1 X 0.6 X 6.1 inches | 0.66 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": {}
+      },
+      "Author": {
+        "name": "Nathan W. Pyle",
+        "about": "Nathan W. Pyle is the #1 New York Times bestselling author of Strange Planet, Stranger Planet, NYC Basic Tips and Etiquette, and 99 Stories I Could Tell. He is a former staff writer and illustrator for BuzzFeed. He is based in New York City but travels the country speaking about creativity and storytelling."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780062970701.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Something Is Killing the Children Vol. 1",
+    "bookAuthor": "James Tynion IV and Werther Dell'edera",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/something-is-killing-the-children-vol-1-9781684155583/9781684155583",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "May 26, 2020",
+        "Publisher": "Boom! Studios",
+        "Pages": "128",
+        "Dimensions": "6.6 X 10.0 X 0.3 inches | 0.65 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "James Tynion IV Werther Dell'edera",
+        "about": "James Tynion IV is a comic book writer, best known for his work on the Batman franchise for DC Comics. James' comics career began with co-writing the back-up stories on Scott Snyder and Greg Capullo's character defining run on BATMAN, which would lead to his making his own name on a number of Bat-Centric series. This work would culminate in James serving as the showrunner of two consecutive weekly comic series, BATMAN ETERNAL and BATMAN & ROBIN ETERNAL. Recently, he has become the writer of the massive cross-over project, BATMAN/TEENAGE MUTANT NINJA TURTLES, bringing two of the most successful franchises together for the first time. The first issue was one of the best selling comic issues of 2015. The Young Adult Science Fiction epic THE WOODS broke all records for original series at the company when it was released in 2014, and has recently been optioned for television by Universal Cable Productions. He has also penned the critical successes MEMETIC, COGNETIC and UFOLOGY for the publisher. James has also recently stepped into the shoes of one of the most iconic anti-heroes in the comics medium with the critically acclaimed relaunch of CONSTANTINE: THE HELLBLAZER with Ming Doyle and Riley Rossmo. An alumni of Sarah Lawrence College, Tynion now lives and works in Los Angeles, CA. Werther Dell'Edera (born January 1, 1975) is an Italian comic book artist who provided interior art for the unreleased comic Aliens: Colonial Marines - Rising Threat for Dark Horse Comics, as Well as Marvel Comics, and BOOM! Studios hit Something is Killing the Children."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781684155583.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "I Hear the Sunspot",
+    "bookAuthor": "Yuki Fumino",
+    "bookPrice": "$12.95 $12.04",
+    "linkDetail": "https://bookshop.org/books/i-hear-the-sunspot/9781944937300",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.04",
+        "sale": "$12.95",
+        "PublishDate": "August 15, 2017",
+        "Publisher": "One Peace Books",
+        "Pages": "200",
+        "Dimensions": "5.1 X 7.1 X 0.6 inches | 0.4 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Yuki Fumino",
+        "about": "Yuki Fumino's first manga, I Hear the Sunspot, received a great deal of attention upon its publication in 2014, quickly leading to the development of a feature film. The exceptional talent on display in her debut project has made her one of the most watched and up-coming manga-ka in the BL world."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781944937300.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Frieren: Beyond Journey's End, Vol. 1: Volume 1",
+    "bookAuthor": "Kanehito Yamada and Tsukasa Abe",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/frieren-beyond-journey-s-end-vol-1-volume-1/9781974725762",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "November 09, 2021",
+        "Publisher": "Viz Media",
+        "Pages": "192",
+        "Dimensions": "5.0 X 7.6 X 0.7 inches | 0.45 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kanehito Yamada Tsukasa Abe",
+        "about": ""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974725762.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Dekoboko Sugar Days",
+    "bookAuthor": "Atsuko Yusen",
+    "bookPrice": "$14.99 $13.94",
+    "linkDetail": "https://bookshop.org/books/dekoboko-sugar-days/9781427862280",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.94",
+        "sale": "$14.99",
+        "PublishDate": "February 18, 2020",
+        "Publisher": "Love X Love",
+        "Pages": "256",
+        "Dimensions": "4.9 X 7.4 X 0.9 inches | 0.54 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Atsuko Yusen",
+        "about": "A Japanese manga author, Atsuko Yusen is known for her Amazon ranked hit titles Dekoboko Sugar Days, Dekoboko Bittersweet Days, and This Wonderful Season With You."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781427862280.jpg?height=500&v=v2-bf6c937cd55311b876e9ba791f082c91"
+    }
+  },
+  {
+    "bookName": "Avatar: The Last Airbender--Smoke and Shadow Omnibus",
+    "bookAuthor": "Gene Luen Yang and Gurihiru",
+    "bookPrice": "$24.99 $23.24",
+    "linkDetail": "https://bookshop.org/books/avatar-the-last-airbender-smoke-and-shadow-omnibus-9781506721682/9781506721682",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$23.24",
+        "sale": "$24.99",
+        "PublishDate": "October 05, 2021",
+        "Publisher": "Dark Horse Books",
+        "Pages": "232",
+        "Dimensions": "6.0 X 8.9 X 0.5 inches | 0.95 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "Revisit the adventure of",
+          "Collects"
+        ]
+      },
+      "Author": {
+        "name": "Gene Luen Yang Gurihiru",
+        "about": "Gene Luen Yang began making comic books in the fifth grade. He has since written and drawn a number of titles. His 2006 book, American Born Chinese, was the first graphic novel to be nominated for a National Book Award and the first to win the American Library Association's Michael L. Printz Award. It also won an Eisner Award for Best Graphic Album--New. His 2013 two-volume graphic novel, Boxers & Saints, was nominated for both the National Book Award and the LA Times Book Award. Gene currently writes the graphic novel continuation of the popular Nickelodeon cartoon, Avatar: The Last Airbender. The Shadow Hero, his comic book series with Sonny Liew, revived the Green Turtle, an obscure 1940s character who is arguably the first Asian-American superhero. The Shadow Hero is now available as individual digital issues via Amazon Kindle. Gurihiru is the team name of the illustration duo of Chifuku Sasaki and Naoko Kawano. Gurihuru has worked on Fantastic Four, The Last Airbender, and Power Pack. You can learn more about Gurihuru at gurihiru.com."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781506721682.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Witch Hat Atelier 2",
+    "bookAuthor": "Kamome Shirahama",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/witch-hat-atelier-2/9781632368041",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "June 25, 2019",
+        "Publisher": "Kodansha Comics",
+        "Pages": "192",
+        "Dimensions": "5.7 X 8.1 X 0.6 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kamome Shirahama",
+        "about": ""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781632368041.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Wotakoi: Love Is Hard for Otaku 6",
+    "bookAuthor": "Fujita",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/wotakoi-love-is-hard-for-otaku-6/9781646514748",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "June 14, 2022",
+        "Publisher": "Kodansha Comics",
+        "Pages": "144",
+        "Dimensions": "5.7 X 8.1 X 0.6 inches | 0.45 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "\n      "
+        ]
+      },
+      "Author": {
+        "name": "Fujita",
+        "about": "Fujita rose to fame as an amateur artist, posting comics on the Japanese Pixiv sharing service. Wotakoi: Love Is Hard for Otaku is her professional manga debut in Japan."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646514748.jpg?height=500&v=v2-4a3987a2e243788c02aa17140bfb6e5d"
+    }
+  },
+  {
+    "bookName": "Kindred: A Graphic Novel Adaptation",
+    "bookAuthor": "Octavia E. Butler and John Jennings",
+    "bookPrice": "$19.99 $18.59",
+    "linkDetail": "https://bookshop.org/books/kindred-a-graphic-novel-adaptation-a22522b4-c1d9-4567-8dfa-43b4a1e55197/9781419728556",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$18.59",
+        "sale": "$19.99",
+        "PublishDate": "July 24, 2018",
+        "Publisher": "Harry N. Abrams",
+        "Pages": "256",
+        "Dimensions": "6.5 X 9.3 X 0.6 inches | 1.45 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Octavia E. Butler Damian Duffy John Jennings",
+        "about": "Octavia Estelle Butler (1947-2006), often referred to as the \"grand dame of science fiction,\" was born in Pasadena, California, on June 22, 1947. She received an Associate of Arts degree in 1968 from Pasadena City College, and also attended California State University in Los Angeles and the University of California, Los Angeles. Butler was the first science-fiction writer to win a MacArthur Fellowship (\"genius\" grant). She won the PEN Lifetime Achievement Award and the Nebula and Hugo Awards, among others. John Jennings is the curator of the Megascope list and illustrator of the graphic novel adaptations of Octavia E. Butler's Kindred and Parable of the Sower. He is a professor of media and cultural studies at the University of California, Riverside and was awarded the Nasir Jones Hiphop Fellowship at Harvard's Hutchins Center for African & African American Research. He also co-edited the Eisner Award-winning anthology The Blacker the Ink: Constructions of Black Identity in Comics and Sequential Art. Damian Duffy, cartoonist, writer, and comics letterer, is a PhD student at the University of Illinois at Urbana-Champaign Graduate School of Library and Information Science, and a founder of Eye Trauma Studios (eyetrauma.net). His first published graphic novel, The Hole: Consumer Culture, created with artist John Jennings, was released by Front 40 Press in 2008. Along with Jennings, Duffy has curated several comics art shows, including Other Heroes: African American Comic Book Creators, Characters and Archetypes and Out of Sequence: Underrepresented Voices in American Comics, and published the art book Black Comix: African American Independent Comics Art and Culture. He has also published scholarly essays in comics form on curation, new media, diversity, and critical pedagogy."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781419728556.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Savior's Book Café Story in Another World (Manga) Vol. 1",
+    "bookAuthor": "Oumiya, Kyouka Izumi, et al.",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/the-savior-s-book-cafe-story-in-another-world-manga-vol-1/9781648276552",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "December 21, 2021",
+        "Publisher": "Seven Seas",
+        "Pages": "160",
+        "Dimensions": "5.09 X 7.22 X 0.51 inches | 0.28 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kyouka Izumi Oumiya Reiko Sakurada",
+        "about": "Kyouka Izumi is a Japanese writer best known for The Savior's Book Cafe Story in Another World and Isekai Idol. Oumiya is a Japanese writer best known for The Savior's Book Cafe Story in Another World and Isekai Idol. Reiko Sakurada is a Japanese manga artist best known for the art in The Savior's Book Cafe Story in Another World (Manga)."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781648276552.jpg?height=500&v=v2-3c149a75ffa47336074b811fe228dad0"
+    }
+  },
+  {
+    "bookName": "Witch Hat Atelier 6",
+    "bookAuthor": "Kamome Shirahama",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/witch-hat-atelier-6/9781646510108",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "September 15, 2020",
+        "Publisher": "Kodansha Comics",
+        "Pages": "176",
+        "Dimensions": "5.7 X 8.0 X 0.7 inches | 0.45 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kamome Shirahama",
+        "about": "Kamome Shirahama is best known in the United States for her comics cover art at DC and Marvel, including such titles as Star Wars: Doctor Aphra and Batgirl and the Birds of Prey. Witch Hat Atelier is her first manga to be released in English."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781646510108.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Witch Hat Atelier 5",
+    "bookAuthor": "Kamome Shirahama",
+    "bookPrice": "$12.99 $12.08",
+    "linkDetail": "https://bookshop.org/books/witch-hat-atelier-5/9781632369291",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$12.08",
+        "sale": "$12.99",
+        "PublishDate": "March 17, 2020",
+        "Publisher": "Kodansha Comics",
+        "Pages": "192",
+        "Dimensions": "5.9 X 8.2 X 0.6 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Kamome Shirahama",
+        "about": "Kamome Shirahama is best known in the United States for her comics cover art at DC and Marvel, including such titles as Star Wars: Doctor Aphra and Batgirl and the Birds of Prey. Witch Hat Atelier is her first manga to be released in English."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781632369291.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Paper Girls: The Complete Story",
+    "bookAuthor": "Brian K. Vaughan",
+    "bookPrice": "$49.99 $46.49",
+    "linkDetail": "https://bookshop.org/books/paper-girls-the-complete-story/9781534319998",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$46.49",
+        "sale": "$49.99",
+        "PublishDate": "November 02, 2021",
+        "Publisher": "Image Comics",
+        "Pages": "800",
+        "Dimensions": "6.4 X 10.1 X 1.8 inches | 3.4 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Brian K. Vaughan Cliff Chiang Matt Wilson",
+        "about": ""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781534319998.jpg?height=500&v=v2-2ce94aab8689dad1d2dcc2438e669a10"
+    }
+  },
+  {
+    "bookName": "Yona of the Dawn, Vol. 36: Volume 36",
+    "bookAuthor": "Mizuho Kusanagi",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/yona-of-the-dawn-vol-36-volume-36/9781974732074",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "June 07, 2022",
+        "Publisher": "Viz Media",
+        "Pages": "200",
+        "Dimensions": "4.9 X 7.4 X 0.7 inches | 0.44 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Mizuho Kusanagi",
+        "about": "Born on February 3 in Kumamoto Prefecture in Japan, Mizuho Kusanagi began her professional manga career with Yoiko no Kokoroe (The Rules of a Good Child) in 2003. Her other works include NG Life, which was serialized in Hana to Yume and The Hana to Yume magazines and published by Hakusensha in Japan. Yona of the Dawn was adapted into an anime in 2014."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781974732074.jpg?height=500&v=v2-3ea9bda1230d03081e99a5b3bf36035a"
+    }
+  },
+  {
+    "bookName": "Anne Frank's Diary: The Graphic Adaptation",
+    "bookAuthor": "David Polonsky",
+    "bookPrice": "$25.00 $23.25",
+    "linkDetail": "https://bookshop.org/books/anne-frank-s-diary-the-graphic-adaptation/9781101871799",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$23.25",
+        "sale": "$25.00",
+        "PublishDate": "October 02, 2018",
+        "Publisher": "Pantheon Books",
+        "Pages": "160",
+        "Dimensions": "7.2 X 0.7 X 10.3 inches | 1.54 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Anne Frank Ari Folman David Polonsky",
+        "about": "ANNE FRANK was born in 1929 in Germany. Her family moved to Amsterdam in 1933, and she died in the Bergen-Belsen concentration camp in 1945..ARI FOLMAN is a director, screenwriter, and film score composer. He has written for several successful Israeli TV series and was the director and writer of the Oscar-nominated Waltz with Bashir, as well as The Congress, and is working on an animated feature based on The Diary of a Young Girl to be released in 2019. DAVID POLONSKY graduated from Bezalel Academy of Art and Design, Jerusalem. His illustrations have appeared in most of Israel's leading newspapers and magazines and he was the art director and lead artist for the Oscar-nominated Waltz with Bashir. He has illustrated a number of children's books, and received the Israel Museum Ben-Yitzhak Award for the Illustration of Children's Books in 2004 and 2008. Since 1999 he has taught animation and illustration at Bezalel Academy of Arts and Design."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781101871799.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Delicious in Dungeon, Vol. 10",
+    "bookAuthor": "Ryoko Kui",
+    "bookPrice": "$15.00 $13.95",
+    "linkDetail": "https://bookshop.org/books/delicious-in-dungeon-vol-10/9781975335588",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$13.95",
+        "sale": "$15.00",
+        "PublishDate": "March 08, 2022",
+        "Publisher": "Yen Press",
+        "Pages": "224",
+        "Dimensions": "5.6 X 8.2 X 0.9 inches | 0.55 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Ryoko Kui",
+        "about": "Ryoko Kui is the author of Delicious in Dungeon."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781975335588.jpg?height=500&v=v2-ff229f9c1dc5ee121e9a5bec8d0ca7b3"
+    }
+  }
+]

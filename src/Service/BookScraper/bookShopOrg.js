@@ -375,14 +375,22 @@ module.exports = class BookShopScrape extends BaseScraper {
       console.log(e);
       return e;
     }
+  };
 
+  loadByQueue= async (bookQueues=[],q) =>{
+    console.log("bookQueues:"+bookQueues)
+    console.log(bookQueues)
+      await Promise.all(bookQueues.map(async book=>{
+        return await this.goToBookDetail(book,q);
+      }))
   }
 
   extractBooksDetailFromLocal = async (linkAccordingFile) => {
     try {
-      console.log("linkAccordingFile"+linkAccordingFile)
+      console.log("linkAccordingFile" + linkAccordingFile)
       let specialCharacter = linkAccordingFile.includes("?") ? "?" : null;
-      const books = await this.extractBooksFromStorage(linkAccordingFile,specialCharacter);
+      const books = await this.extractBooksFromStorage(linkAccordingFile,
+          specialCharacter);
       // const links = books.map(book => {
       //   return book;
       // });
@@ -390,12 +398,40 @@ module.exports = class BookShopScrape extends BaseScraper {
       this.dataUtilInstance.consoleLogWithColor(books);
 
       const nonVisited = books
-      .filter(book => !this.queue.visited.has(book.linkDetail))
-      for (const b of nonVisited) {
-        await this.queue.enqueue(this.queue.crawlTask, b.linkDetail,
-            this.goToBookDetail, b, this.queue);
+      .filter(book => !this.queue.visited.has(book.linkDetail));
+
+      let loadByQueue = this.dataUtilInstance.detachArrayByCurrency(nonVisited,4);
+
+
+      // for (const b of nonVisited) {
+      //   await this.queue.enqueue(this.queue.crawlTask, b.linkDetail,
+      //       this.goToBookDetail, b, this.queue);
+      //   // await this.sleep(5000);
+      // }
+
+      for (const b of loadByQueue) {
+        for (const b2 of b){
+          await this.queue.enqueue(this.queue.crawlTask, b2.linkDetail,
+              this.loadByQueue, b, this.queue);
+        }
+
         // await this.sleep(5000);
       }
+
+
+      // await Promise.all(books
+      //  .filter(book => !this.queue.visited.has(book.linkDetail)).map(
+      //     async(b)=>{
+      //         return await this.queue.enqueue(this.queue.crawlTask, b.linkDetail,
+      //            this.goToBookDetail, b, this.queue);
+      //      }
+      //  ));
+      // for (const b of nonVisited) {
+      //   await this.queue.enqueue(this.queue.crawlTask, b.linkDetail,
+      //       this.goToBookDetail, b, this.queue);
+      //   // await this.sleep(5000);
+      // }
+
     } catch (e) {
       console.log(e)
       return e

@@ -128,10 +128,10 @@ module.exports = class BaseScraper extends BaseService {
         waitUntil: 'load',
         timeout: 0
       });
-      // const session = await page.target().createCDPSession();
-      // await session.send('Page.enable');
-      // await session.send('Page.setWebLifecycleState', {state: 'active'});
-      // await page.waitForTimeout(5000);
+      const session = await page.target().createCDPSession();
+      await session.send('Page.enable');
+      await session.send('Page.setWebLifecycleState', {state: 'active'});
+      await page.waitForTimeout(5000);
       await page.goto(url);
       // const {
       //   captchas,
